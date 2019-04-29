@@ -1,0 +1,115 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestKendoWidgets,Firefox 66.0,"Test Grid (filters, sorts, groups, pagination) and Menu (with items, links, disabled) widgets",,2019-04-29 14:12:05,2019-04-29 14:13:33,1m - 28.215s,FAILED
+,,,,,,,
+Test Cases/ShowHideColumns,Firefox 66.0,,,2019-04-29 14:12:05,2019-04-29 14:12:17,11.638s,PASSED
+"openBrowser("""")",Firefox 66.0,,,2019-04-29 14:12:05,2019-04-29 14:12:10,4.625s,PASSED
+navigateToUrl(baseURL),Firefox 66.0,,,2019-04-29 14:12:10,2019-04-29 14:12:13,3.001s,PASSED
+"click(findTestObject(""Object Repository/MvcApp/a_Column Settings for OrderID""))",Firefox 66.0,,,2019-04-29 14:12:13,2019-04-29 14:12:13,0.324s,PASSED
+"click(findTestObject(""Object Repository/MvcApp/span_Columns""))",Firefox 66.0,,,2019-04-29 14:12:13,2019-04-29 14:12:14,0.235s,PASSED
+"mouseOverOffset(findTestObject(""Object Repository/MvcApp/span_Columns""), 20, 20)",Firefox 66.0,,,2019-04-29 14:12:14,2019-04-29 14:12:14,0.161s,PASSED
+"waitForElementVisible(findTestObject(""MvcApp/input_OrderID Hide Show""), 5)",Firefox 66.0,,,2019-04-29 14:12:14,2019-04-29 14:12:14,0.571s,PASSED
+"waitForElementClickable(findTestObject(""MvcApp/input_OrderID Hide Show""), 5)",Firefox 66.0,,,2019-04-29 14:12:14,2019-04-29 14:12:14,0.044s,PASSED
+"click(findTestObject(""MvcApp/input_OrderID Hide Show""))",Firefox 66.0,,,2019-04-29 14:12:14,2019-04-29 14:12:15,0.240s,PASSED
+"verifyElementNotVisible(findTestObject(""Object Repository/MvcApp/a_Order ID""))",Firefox 66.0,,,2019-04-29 14:12:15,2019-04-29 14:12:15,0.055s,PASSED
+"click(findTestObject(""MvcApp/input_Freight Hide Show""))",Firefox 66.0,,,2019-04-29 14:12:15,2019-04-29 14:12:15,0.244s,PASSED
+"verifyElementNotVisible(findTestObject(""Object Repository/MvcApp/a_Freight""))",Firefox 66.0,,,2019-04-29 14:12:15,2019-04-29 14:12:15,0.032s,PASSED
+"click(findTestObject(""MvcApp/input_OrderID Hide Show""))",Firefox 66.0,,,2019-04-29 14:12:15,2019-04-29 14:12:15,0.244s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/MvcApp/a_Order ID""))",Firefox 66.0,,,2019-04-29 14:12:15,2019-04-29 14:12:15,0.038s,PASSED
+"click(findTestObject(""Object Repository/MvcApp/a_Order ID""))",Firefox 66.0,,,2019-04-29 14:12:15,2019-04-29 14:12:15,0.246s,PASSED
+closeBrowser(),Firefox 66.0,,,2019-04-29 14:12:15,2019-04-29 14:12:17,1.206s,PASSED
+,,,,,,,
+Test Cases/SortNumbers,Firefox 66.0,,,2019-04-29 14:12:17,2019-04-29 14:12:24,7.069s,PASSED
+"openBrowser("""")",Firefox 66.0,,,2019-04-29 14:12:17,2019-04-29 14:12:20,3.223s,PASSED
+navigateToUrl(baseURL),Firefox 66.0,,,2019-04-29 14:12:20,2019-04-29 14:12:23,2.594s,PASSED
+"click(findTestObject(""MvcApp/a_Column Settings""))",Firefox 66.0,,,2019-04-29 14:12:23,2019-04-29 14:12:23,0.287s,PASSED
+"click(findTestObject(""MvcApp/span_Sort Ascending""))",Firefox 66.0,,,2019-04-29 14:12:23,2019-04-29 14:12:23,0.245s,PASSED
+"smallestValue = getText(findTestObject(""MvcApp/td_0""))",Firefox 66.0,,,2019-04-29 14:12:23,2019-04-29 14:12:23,0.030s,PASSED
+"click(findTestObject(""MvcApp/a_Column Settings""))",Firefox 66.0,,,2019-04-29 14:12:23,2019-04-29 14:12:23,0.239s,PASSED
+"click(findTestObject(""MvcApp/span_Sort Descending""))",Firefox 66.0,,,2019-04-29 14:12:23,2019-04-29 14:12:24,0.245s,PASSED
+"biggestValue = getText(findTestObject(""MvcApp/td_0""))",Firefox 66.0,,,2019-04-29 14:12:24,2019-04-29 14:12:24,0.021s,PASSED
+"verifyGreaterThanOrEqual(biggestValue, smallestValue)",Firefox 66.0,,,2019-04-29 14:12:24,2019-04-29 14:12:24,0.024s,PASSED
+,,,,,,,
+Test Cases/SortText,Firefox 66.0,,,2019-04-29 14:12:24,2019-04-29 14:12:32,8.402s,FAILED
+"openBrowser("""")",Firefox 66.0,,,2019-04-29 14:12:24,2019-04-29 14:12:28,4.372s,PASSED
+navigateToUrl(baseURL),Firefox 66.0,,,2019-04-29 14:12:28,2019-04-29 14:12:31,2.619s,PASSED
+"click(findTestObject(""MvcApp/a_Column Settings for Ship Name""))",Firefox 66.0,,,2019-04-29 14:12:31,2019-04-29 14:12:31,0.330s,PASSED
+"click(findTestObject(""MvcApp/span_Sort Ascending""))",Firefox 66.0,,,2019-04-29 14:12:31,2019-04-29 14:12:32,0.260s,PASSED
+"smallestValue = getText(findTestObject(""MvcApp/td_4""))",Firefox 66.0,,,2019-04-29 14:12:32,2019-04-29 14:12:32,0.024s,PASSED
+"click(findTestObject(""MvcApp/a_Column Settings for Ship Name""))",Firefox 66.0,,,2019-04-29 14:12:32,2019-04-29 14:12:32,0.244s,PASSED
+"click(findTestObject(""MvcApp/span_Sort Descending""))",Firefox 66.0,,,2019-04-29 14:12:32,2019-04-29 14:12:32,0.254s,PASSED
+"biggestValue = getText(findTestObject(""MvcApp/td_4""))",Firefox 66.0,,,2019-04-29 14:12:32,2019-04-29 14:12:32,0.025s,PASSED
+"verifyGreaterThanOrEqual(smallestValue.compareTo(biggestValue), 0)",Firefox 66.0,,,2019-04-29 14:12:32,2019-04-29 14:12:32,0.015s,FAILED
+,,,,,,,
+Test Cases/SortDate,Firefox 66.0,,,2019-04-29 14:12:32,2019-04-29 14:12:41,9.095s,FAILED
+"openBrowser("""")",Firefox 66.0,,,2019-04-29 14:12:32,2019-04-29 14:12:37,4.651s,PASSED
+navigateToUrl(baseURL),Firefox 66.0,,,2019-04-29 14:12:37,2019-04-29 14:12:40,2.970s,PASSED
+"click(findTestObject(""MvcApp/a_Column Settings for Order Date""))",Firefox 66.0,,,2019-04-29 14:12:40,2019-04-29 14:12:40,0.328s,PASSED
+"click(findTestObject(""MvcApp/span_Sort Ascending""))",Firefox 66.0,,,2019-04-29 14:12:40,2019-04-29 14:12:41,0.249s,PASSED
+"smallestValue = getText(findTestObject(""MvcApp/td_3""))",Firefox 66.0,,,2019-04-29 14:12:41,2019-04-29 14:12:41,0.024s,PASSED
+"click(findTestObject(""MvcApp/a_Column Settings for Order Date""))",Firefox 66.0,,,2019-04-29 14:12:41,2019-04-29 14:12:41,0.247s,PASSED
+"click(findTestObject(""MvcApp/span_Sort Descending""))",Firefox 66.0,,,2019-04-29 14:12:41,2019-04-29 14:12:41,0.253s,PASSED
+"biggestValue = getText(findTestObject(""MvcApp/td_3""))",Firefox 66.0,,,2019-04-29 14:12:41,2019-04-29 14:12:41,0.022s,PASSED
+"verifyGreaterThanOrEqual(smallestValue.compareTo(biggestValue), 0)",Firefox 66.0,,,2019-04-29 14:12:41,2019-04-29 14:12:41,0.002s,FAILED
+,,,,,,,
+Test Cases/FilterNumbers,Firefox 66.0,,,2019-04-29 14:12:41,2019-04-29 14:13:08,26.793s,PASSED
+"openBrowser("""")",Firefox 66.0,,,2019-04-29 14:12:42,2019-04-29 14:12:46,4.391s,PASSED
+navigateToUrl(baseURL),Firefox 66.0,,,2019-04-29 14:12:46,2019-04-29 14:12:49,2.961s,PASSED
+"click(findTestObject(""MvcApp/a_Column Settings for Freight""))",Firefox 66.0,,,2019-04-29 14:12:49,2019-04-29 14:12:49,0.329s,PASSED
+"mouseOver(findTestObject(""MvcApp/span_Filter""))",Firefox 66.0,,,2019-04-29 14:12:49,2019-04-29 14:12:49,0.153s,PASSED
+"waitForElementVisible(findTestObject(""MvcApp/span_Is equal to""), 5)",Firefox 66.0,,,2019-04-29 14:12:49,2019-04-29 14:12:50,0.553s,PASSED
+"waitForElementClickable(findTestObject(""MvcApp/span_Is equal to""), 5)",Firefox 66.0,,,2019-04-29 14:12:50,2019-04-29 14:12:50,0.022s,PASSED
+"click(findTestObject(""MvcApp/span_Is equal to""))",Firefox 66.0,,,2019-04-29 14:12:50,2019-04-29 14:12:50,0.265s,PASSED
+"click(findTestObject(""MvcApp/li_Is greater than""))",Firefox 66.0,,,2019-04-29 14:12:50,2019-04-29 14:12:50,0.241s,PASSED
+"waitForElementVisible(findTestObject(""MvcApp/span_Filter up arrow""), 5)",Firefox 66.0,,,2019-04-29 14:12:50,2019-04-29 14:12:50,0.038s,PASSED
+filterValues = 20,Firefox 66.0,,,2019-04-29 14:12:50,2019-04-29 14:12:50,0.001s,PASSED
+"for ([i = 0, i < filterValues, (i++)])",Firefox 66.0,,,2019-04-29 14:12:50,2019-04-29 14:12:55,4.601s,PASSED
+"click(findTestObject(""MvcApp/button_Filter""))",Firefox 66.0,,,2019-04-29 14:12:55,2019-04-29 14:12:55,0.258s,PASSED
+filterRow = 1,Firefox 66.0,,,2019-04-29 14:12:55,2019-04-29 14:12:55,0.000s,PASSED
+filterCol = 2,Firefox 66.0,,,2019-04-29 14:12:55,2019-04-29 14:12:55,0.000s,PASSED
+"while (waitForElementPresent(findTestObject(""MvcApp/td_Dynamic"", [""testRow"":filterRow, ""testCol"":filterCol]), 5, CONTINUE_ON_FAILURE))",Firefox 66.0,,,2019-04-29 14:12:55,2019-04-29 14:13:01,5.728s,PASSED
+"click(findTestObject(""MvcApp/a_Column Settings for Freight""))",Firefox 66.0,,,2019-04-29 14:13:01,2019-04-29 14:13:01,0.256s,PASSED
+"mouseOverOffset(findTestObject(""MvcApp/span_Filter""), 15, 15)",Firefox 66.0,,,2019-04-29 14:13:01,2019-04-29 14:13:01,0.143s,PASSED
+"waitForElementVisible(findTestObject(""MvcApp/span_Is greater than""), 5)",Firefox 66.0,,,2019-04-29 14:13:01,2019-04-29 14:13:02,0.566s,PASSED
+"waitForElementVisible(findTestObject(""MvcApp/span_Is equal to""), 5)",Firefox 66.0,,,2019-04-29 14:13:02,2019-04-29 14:13:02,0.030s,PASSED
+"waitForElementClickable(findTestObject(""MvcApp/span_Is greater than""), 5)",Firefox 66.0,,,2019-04-29 14:13:02,2019-04-29 14:13:02,0.020s,PASSED
+"click(findTestObject(""MvcApp/span_Is greater than""))",Firefox 66.0,,,2019-04-29 14:13:02,2019-04-29 14:13:02,0.251s,PASSED
+"click(findTestObject(""MvcApp/li_Is less than""))",Firefox 66.0,,,2019-04-29 14:13:02,2019-04-29 14:13:03,0.252s,PASSED
+"click(findTestObject(""MvcApp/button_Filter""))",Firefox 66.0,,,2019-04-29 14:13:03,2019-04-29 14:13:03,0.239s,PASSED
+filterRow = 1,Firefox 66.0,,,2019-04-29 14:13:03,2019-04-29 14:13:03,0.000s,PASSED
+filterCol = 2,Firefox 66.0,,,2019-04-29 14:13:03,2019-04-29 14:13:03,0.000s,PASSED
+"while (waitForElementPresent(findTestObject(""MvcApp/td_Dynamic"", [""testRow"":filterRow, ""testCol"":filterCol]), 5, CONTINUE_ON_FAILURE))",Firefox 66.0,,,2019-04-29 14:13:03,2019-04-29 14:13:08,5.205s,PASSED
+,,,,,,,
+Test Cases/FilterText,Firefox 66.0,,,2019-04-29 14:13:08,2019-04-29 14:13:21,12.660s,PASSED
+"openBrowser("""")",Firefox 66.0,,,2019-04-29 14:13:08,2019-04-29 14:13:13,4.978s,PASSED
+navigateToUrl(baseURL),Firefox 66.0,,,2019-04-29 14:13:13,2019-04-29 14:13:16,2.936s,PASSED
+"click(findTestObject(""MvcApp/a_Column Settings for Ship Name""))",Firefox 66.0,,,2019-04-29 14:13:16,2019-04-29 14:13:17,0.339s,PASSED
+"mouseOver(findTestObject(""MvcApp/span_Filter""))",Firefox 66.0,,,2019-04-29 14:13:17,2019-04-29 14:13:17,0.138s,PASSED
+"waitForElementVisible(findTestObject(""MvcApp/span_Is equal to""), 5)",Firefox 66.0,,,2019-04-29 14:13:17,2019-04-29 14:13:17,0.547s,PASSED
+"waitForElementClickable(findTestObject(""MvcApp/span_Is equal to""), 5)",Firefox 66.0,,,2019-04-29 14:13:17,2019-04-29 14:13:17,0.021s,PASSED
+"click(findTestObject(""MvcApp/span_Is equal to""))",Firefox 66.0,,,2019-04-29 14:13:17,2019-04-29 14:13:18,0.265s,PASSED
+"click(findTestObject(""MvcApp/li_Contains""))",Firefox 66.0,,,2019-04-29 14:13:18,2019-04-29 14:13:18,0.240s,PASSED
+"setText(findTestObject(""MvcApp/input_Filter textbox""), ""Ship"")",Firefox 66.0,,,2019-04-29 14:13:18,2019-04-29 14:13:18,0.054s,PASSED
+"click(findTestObject(""MvcApp/button_Filter""))",Firefox 66.0,,,2019-04-29 14:13:18,2019-04-29 14:13:18,0.248s,PASSED
+filterRow = 1,Firefox 66.0,,,2019-04-29 14:13:18,2019-04-29 14:13:18,0.001s,PASSED
+filterCol = 4,Firefox 66.0,,,2019-04-29 14:13:18,2019-04-29 14:13:18,0.000s,PASSED
+"while (waitForElementPresent(findTestObject(""MvcApp/td_Dynamic"", [""testRow"":filterRow, ""testCol"":filterCol]), 2, CONTINUE_ON_FAILURE))",Firefox 66.0,,,2019-04-29 14:13:18,2019-04-29 14:13:21,2.631s,PASSED
+,,,,,,,
+Test Cases/MultiFilters,Firefox 66.0,,,2019-04-29 14:13:21,2019-04-29 14:13:21,0.231s,PASSED
+return null,Firefox 66.0,,,2019-04-29 14:13:21,2019-04-29 14:13:21,0.001s,PASSED
+,,,,,,,
+Test Cases/GroupData,Firefox 66.0,,,2019-04-29 14:13:21,2019-04-29 14:13:31,10.374s,PASSED
+"openBrowser("""")",Firefox 66.0,,,2019-04-29 14:13:21,2019-04-29 14:13:26,4.721s,PASSED
+navigateToUrl(baseURL),Firefox 66.0,,,2019-04-29 14:13:26,2019-04-29 14:13:29,2.649s,PASSED
+"click(findTestObject(""MvcApp/a_Column Settings for Ship Name""))",Firefox 66.0,,,2019-04-29 14:13:29,2019-04-29 14:13:29,0.319s,PASSED
+"mouseOver(findTestObject(""MvcApp/span_Filter""))",Firefox 66.0,,,2019-04-29 14:13:29,2019-04-29 14:13:29,0.139s,PASSED
+"waitForElementVisible(findTestObject(""MvcApp/span_Is equal to""), 5)",Firefox 66.0,,,2019-04-29 14:13:29,2019-04-29 14:13:30,0.547s,PASSED
+"waitForElementClickable(findTestObject(""MvcApp/span_Is equal to""), 5)",Firefox 66.0,,,2019-04-29 14:13:30,2019-04-29 14:13:30,0.021s,PASSED
+"click(findTestObject(""MvcApp/span_Is equal to""))",Firefox 66.0,,,2019-04-29 14:13:30,2019-04-29 14:13:30,0.271s,PASSED
+"click(findTestObject(""MvcApp/li_Contains""))",Firefox 66.0,,,2019-04-29 14:13:30,2019-04-29 14:13:30,0.242s,PASSED
+"setText(findTestObject(""MvcApp/input_Filter textbox""), ""5"")",Firefox 66.0,,,2019-04-29 14:13:30,2019-04-29 14:13:30,0.034s,PASSED
+"click(findTestObject(""MvcApp/button_Filter""))",Firefox 66.0,,,2019-04-29 14:13:30,2019-04-29 14:13:30,0.251s,PASSED
+"dragAndDropToObject(findTestObject(""Object Repository/MvcApp/a_Ship Name""), findTestObject(""Object Repository/MvcApp/div_Area to Group By""))",Firefox 66.0,,,2019-04-29 14:13:30,2019-04-29 14:13:31,0.892s,PASSED
+"verifyElementVisible(findTestObject(""MvcApp/p_Grouped Items Header""))",Firefox 66.0,,,2019-04-29 14:13:31,2019-04-29 14:13:31,0.061s,PASSED
+,,,,,,,
+Test Cases/MenuItems,Firefox 66.0,,,2019-04-29 14:13:31,2019-04-29 14:13:32,0.300s,PASSED
+return null,Firefox 66.0,,,2019-04-29 14:13:32,2019-04-29 14:13:32,0.000s,PASSED

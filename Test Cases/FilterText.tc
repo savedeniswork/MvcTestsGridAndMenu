@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>FilterText</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8e885ca1-80eb-4abe-ac5b-f1e706dbd136</testCaseGuid>
+   <variable>
+      <defaultValue>40</defaultValue>
+      <description></description>
+      <id>398170d8-6c23-4d44-843b-5e08d9fb9415</id>
+      <masked>false</masked>
+      <name>testRow</name>
+   </variable>
+   <variable>
+      <defaultValue>4</defaultValue>
+      <description></description>
+      <id>c034acaa-f7ea-4425-bff1-a19a2af5ab69</id>
+      <masked>false</masked>
+      <name>testCol</name>
+   </variable>
+</TestCaseEntity>

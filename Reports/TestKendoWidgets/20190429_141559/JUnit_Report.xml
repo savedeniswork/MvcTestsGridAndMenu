@@ -1,0 +1,931 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestKendoWidgets" time="139" tests="9" failures="0" errors="0">
+   <testsuite name="TestKendoWidgets" tests="9" failures="0" errors="0" time="139" timestamp="2019-04-29 14:16:02" hostname="C56936A - W5191071.uk.experian.local" id="Test Suites/TestKendoWidgets">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\C56936A\\Downloads\\Deni\\KatalonTests\\MvcTestsGridAndMenu\\Reports\\TestKendoWidgets\\20190429_141559"/>
+         <property name="logFiles" value="C:\\Users\\C56936A\\Downloads\\Deni\\KatalonTests\\MvcTestsGridAndMenu\\Reports\\TestKendoWidgets\\20190429_141559\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="C56936A - W5191071.uk.experian.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.2.2"/>
+         <property name="browser" value="Firefox 66.0"/>
+         <property name="hostAddress" value="192.168.1.4"/>
+         <property name="sessionId" value="3e7ffeef-984e-4034-bb46-44fd8c53b0e6"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/ShowHideColumns" classname="Test Cases/ShowHideColumns" status="PASSED">
+         <system-out><![CDATA[2019-04-29 14:16:02 - [TEST_CASE][PASSED] - Test Cases/ShowHideColumns: Test Cases/ShowHideColumns
+
+2019-04-29 14:16:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-29 14:16:03 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-04-29 14:16:03 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-29 14:16:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-29 14:16:07 - [TEST_STEP][PASSED] - navigateToUrl(baseURL): Navigate to 'http://localhost:61603/' successfully
+
+2019-04-29 14:16:10 - [MESSAGE][PASSED] - Navigate to 'http://localhost:61603/' successfully
+
+2019-04-29 14:16:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/MvcApp/a_Column Settings for OrderID")): Object: 'Object Repository/MvcApp/a_Column Settings for OrderID' is clicked on
+
+2019-04-29 14:16:10 - [MESSAGE][PASSED] - Object: 'Object Repository/MvcApp/a_Column Settings for OrderID' is clicked on
+
+2019-04-29 14:16:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/MvcApp/span_Columns")): Object: 'Object Repository/MvcApp/span_Columns' is clicked on
+
+2019-04-29 14:16:11 - [MESSAGE][PASSED] - Object: 'Object Repository/MvcApp/span_Columns' is clicked on
+
+2019-04-29 14:16:11 - [TEST_STEP][PASSED] - mouseOverOffset(findTestObject("Object Repository/MvcApp/span_Columns"), 20, 20): Object: 'Object Repository/MvcApp/span_Columns' is hovered using offset x = 20 and y = 20
+
+2019-04-29 14:16:11 - [MESSAGE][PASSED] - Object: 'Object Repository/MvcApp/span_Columns' is hovered using offset x = 20 and y = 20
+
+2019-04-29 14:16:11 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("MvcApp/input_OrderID Hide Show"), 5): Object 'Object Repository/MvcApp/input_OrderID Hide Show' is visible
+
+2019-04-29 14:16:11 - [MESSAGE][PASSED] - Object 'Object Repository/MvcApp/input_OrderID Hide Show' is visible
+
+2019-04-29 14:16:11 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("MvcApp/input_OrderID Hide Show"), 5): Object 'Object Repository/MvcApp/input_OrderID Hide Show' is clickable
+
+2019-04-29 14:16:11 - [MESSAGE][PASSED] - Object 'Object Repository/MvcApp/input_OrderID Hide Show' is clickable
+
+2019-04-29 14:16:11 - [TEST_STEP][PASSED] - click(findTestObject("MvcApp/input_OrderID Hide Show")): Object: 'Object Repository/MvcApp/input_OrderID Hide Show' is clicked on
+
+2019-04-29 14:16:12 - [MESSAGE][PASSED] - Object: 'Object Repository/MvcApp/input_OrderID Hide Show' is clicked on
+
+2019-04-29 14:16:12 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("Object Repository/MvcApp/a_Order ID")): Object 'Object Repository/MvcApp/a_Order ID' is NOT visible
+
+2019-04-29 14:16:12 - [MESSAGE][PASSED] - Object 'Object Repository/MvcApp/a_Order ID' is NOT visible
+
+2019-04-29 14:16:12 - [TEST_STEP][PASSED] - click(findTestObject("MvcApp/input_Freight Hide Show")): Object: 'Object Repository/MvcApp/input_Freight Hide Show' is clicked on
+
+2019-04-29 14:16:12 - [MESSAGE][PASSED] - Object: 'Object Repository/MvcApp/input_Freight Hide Show' is clicked on
+
+2019-04-29 14:16:12 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("Object Repository/MvcApp/a_Freight")): Object 'Object Repository/MvcApp/a_Freight' is NOT visible
+
+2019-04-29 14:16:12 - [MESSAGE][PASSED] - Object 'Object Repository/MvcApp/a_Freight' is NOT visible
+
+2019-04-29 14:16:12 - [TEST_STEP][PASSED] - click(findTestObject("MvcApp/input_OrderID Hide Show")): Object: 'Object Repository/MvcApp/input_OrderID Hide Show' is clicked on
+
+2019-04-29 14:16:12 - [MESSAGE][PASSED] - Object: 'Object Repository/MvcApp/input_OrderID Hide Show' is clicked on
+
+2019-04-29 14:16:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/MvcApp/a_Order ID")): Object 'Object Repository/MvcApp/a_Order ID' is visible
+
+2019-04-29 14:16:12 - [MESSAGE][PASSED] - Object 'Object Repository/MvcApp/a_Order ID' is visible
+
+2019-04-29 14:16:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/MvcApp/a_Order ID")): Object: 'Object Repository/MvcApp/a_Order ID' is clicked on
+
+2019-04-29 14:16:12 - [MESSAGE][PASSED] - Object: 'Object Repository/MvcApp/a_Order ID' is clicked on
+
+2019-04-29 14:16:12 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-29 14:16:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SortNumbers" classname="Test Cases/SortNumbers" status="PASSED">
+         <system-out><![CDATA[2019-04-29 14:16:14 - [TEST_CASE][PASSED] - Test Cases/SortNumbers: Test Cases/SortNumbers
+
+2019-04-29 14:16:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-29 14:16:14 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-04-29 14:16:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-29 14:16:17 - [TEST_STEP][PASSED] - navigateToUrl(baseURL): Navigate to 'http://localhost:61603/' successfully
+
+2019-04-29 14:16:20 - [MESSAGE][PASSED] - Navigate to 'http://localhost:61603/' successfully
+
+2019-04-29 14:16:20 - [TEST_STEP][PASSED] - click(findTestObject("MvcApp/a_Column Settings")): Object: 'Object Repository/MvcApp/a_Column Settings' is clicked on
+
+2019-04-29 14:16:20 - [MESSAGE][PASSED] - Object: 'Object Repository/MvcApp/a_Column Settings' is clicked on
+
+2019-04-29 14:16:20 - [TEST_STEP][PASSED] - click(findTestObject("MvcApp/span_Sort Ascending")): Object: 'Object Repository/MvcApp/span_Sort Ascending' is clicked on
+
+2019-04-29 14:16:20 - [MESSAGE][PASSED] - Object: 'Object Repository/MvcApp/span_Sort Ascending' is clicked on
+
+2019-04-29 14:16:20 - [TEST_STEP][PASSED] - smallestValue = getText(findTestObject("MvcApp/td_0")): Text of object 'Object Repository/MvcApp/td_0' is: '0'
+
+2019-04-29 14:16:20 - [MESSAGE][PASSED] - Text of object 'Object Repository/MvcApp/td_0' is: '0'
+
+2019-04-29 14:16:20 - [TEST_STEP][PASSED] - click(findTestObject("MvcApp/a_Column Settings")): Object: 'Object Repository/MvcApp/a_Column Settings' is clicked on
+
+2019-04-29 14:16:21 - [MESSAGE][PASSED] - Object: 'Object Repository/MvcApp/a_Column Settings' is clicked on
+
+2019-04-29 14:16:21 - [TEST_STEP][PASSED] - click(findTestObject("MvcApp/span_Sort Descending")): Object: 'Object Repository/MvcApp/span_Sort Descending' is clicked on
+
+2019-04-29 14:16:21 - [MESSAGE][PASSED] - Object: 'Object Repository/MvcApp/span_Sort Descending' is clicked on
+
+2019-04-29 14:16:21 - [TEST_STEP][PASSED] - biggestValue = getText(findTestObject("MvcApp/td_0")): Text of object 'Object Repository/MvcApp/td_0' is: '123567'
+
+2019-04-29 14:16:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/MvcApp/td_0' is: '123567'
+
+2019-04-29 14:16:21 - [TEST_STEP][PASSED] - verifyGreaterThanOrEqual(biggestValue, smallestValue): Actual number '123567' is greater than or equal to expected number '0'
+
+2019-04-29 14:16:21 - [MESSAGE][PASSED] - Actual number '123567' is greater than or equal to expected number '0']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SortText" classname="Test Cases/SortText" status="PASSED">
+         <system-out><![CDATA[2019-04-29 14:16:21 - [TEST_CASE][PASSED] - Test Cases/SortText: Test Cases/SortText
+
+2019-04-29 14:16:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-29 14:16:21 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-29 14:16:22 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-04-29 14:16:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-29 14:16:26 - [TEST_STEP][PASSED] - navigateToUrl(baseURL): Navigate to 'http://localhost:61603/' successfully
+
+2019-04-29 14:16:28 - [MESSAGE][PASSED] - Navigate to 'http://localhost:61603/' successfully
+
+2019-04-29 14:16:28 - [TEST_STEP][PASSED] - click(findTestObject("MvcApp/a_Column Settings for Ship Name")): Object: 'Object Repository/MvcApp/a_Column Settings for Ship Name' is clicked on
+
+2019-04-29 14:16:29 - [MESSAGE][PASSED] - Object: 'Object Repository/MvcApp/a_Column Settings for Ship Name' is clicked on
+
+2019-04-29 14:16:29 - [TEST_STEP][PASSED] - click(findTestObject("MvcApp/span_Sort Ascending")): Object: 'Object Repository/MvcApp/span_Sort Ascending' is clicked on
+
+2019-04-29 14:16:29 - [MESSAGE][PASSED] - Object: 'Object Repository/MvcApp/span_Sort Ascending' is clicked on
+
+2019-04-29 14:16:29 - [TEST_STEP][PASSED] - smallestValue = getText(findTestObject("MvcApp/td_4")): Text of object 'Object Repository/MvcApp/td_4' is: 'PHNjcmlwdD5hbGVydCgxMjMpPC9zY3JpcHQ+'
+
+2019-04-29 14:16:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/MvcApp/td_4' is: 'PHNjcmlwdD5hbGVydCgxMjMpPC9zY3JpcHQ+'
+
+2019-04-29 14:16:29 - [TEST_STEP][PASSED] - click(findTestObject("MvcApp/a_Column Settings for Ship Name")): Object: 'Object Repository/MvcApp/a_Column Settings for Ship Name' is clicked on
+
+2019-04-29 14:16:29 - [MESSAGE][PASSED] - Object: 'Object Repository/MvcApp/a_Column Settings for Ship Name' is clicked on
+
+2019-04-29 14:16:29 - [TEST_STEP][PASSED] - click(findTestObject("MvcApp/span_Sort Descending")): Object: 'Object Repository/MvcApp/span_Sort Descending' is clicked on
+
+2019-04-29 14:16:29 - [MESSAGE][PASSED] - Object: 'Object Repository/MvcApp/span_Sort Descending' is clicked on
+
+2019-04-29 14:16:29 - [TEST_STEP][PASSED] - biggestValue = getText(findTestObject("MvcApp/td_4")): Text of object 'Object Repository/MvcApp/td_4' is: 'ShipName 9'
+
+2019-04-29 14:16:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/MvcApp/td_4' is: 'ShipName 9'
+
+2019-04-29 14:16:29 - [TEST_STEP][PASSED] - verifyGreaterThanOrEqual(biggestValue.compareTo(smallestValue), 0): Actual number '3' is greater than or equal to expected number '0'
+
+2019-04-29 14:16:29 - [MESSAGE][PASSED] - Actual number '3' is greater than or equal to expected number '0']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SortDate" classname="Test Cases/SortDate" status="PASSED">
+         <system-out><![CDATA[2019-04-29 14:16:29 - [TEST_CASE][PASSED] - Test Cases/SortDate: Test Cases/SortDate
+
+2019-04-29 14:16:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-29 14:16:30 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-29 14:16:31 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-04-29 14:16:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-29 14:16:35 - [TEST_STEP][PASSED] - navigateToUrl(baseURL): Navigate to 'http://localhost:61603/' successfully
+
+2019-04-29 14:16:38 - [MESSAGE][PASSED] - Navigate to 'http://localhost:61603/' successfully
+
+2019-04-29 14:16:38 - [TEST_STEP][PASSED] - click(findTestObject("MvcApp/a_Column Settings for Order Date")): Object: 'Object Repository/MvcApp/a_Column Settings for Order Date' is clicked on
+
+2019-04-29 14:16:38 - [MESSAGE][PASSED] - Object: 'Object Repository/MvcApp/a_Column Settings for Order Date' is clicked on
+
+2019-04-29 14:16:38 - [TEST_STEP][PASSED] - click(findTestObject("MvcApp/span_Sort Ascending")): Object: 'Object Repository/MvcApp/span_Sort Ascending' is clicked on
+
+2019-04-29 14:16:38 - [MESSAGE][PASSED] - Object: 'Object Repository/MvcApp/span_Sort Ascending' is clicked on
+
+2019-04-29 14:16:38 - [TEST_STEP][PASSED] - smallestValue = getText(findTestObject("MvcApp/td_3")): Text of object 'Object Repository/MvcApp/td_3' is: '2019/04/29'
+
+2019-04-29 14:16:38 - [MESSAGE][PASSED] - Text of object 'Object Repository/MvcApp/td_3' is: '2019/04/29'
+
+2019-04-29 14:16:38 - [TEST_STEP][PASSED] - click(findTestObject("MvcApp/a_Column Settings for Order Date")): Object: 'Object Repository/MvcApp/a_Column Settings for Order Date' is clicked on
+
+2019-04-29 14:16:39 - [MESSAGE][PASSED] - Object: 'Object Repository/MvcApp/a_Column Settings for Order Date' is clicked on
+
+2019-04-29 14:16:39 - [TEST_STEP][PASSED] - click(findTestObject("MvcApp/span_Sort Descending")): Object: 'Object Repository/MvcApp/span_Sort Descending' is clicked on
+
+2019-04-29 14:16:39 - [MESSAGE][PASSED] - Object: 'Object Repository/MvcApp/span_Sort Descending' is clicked on
+
+2019-04-29 14:16:39 - [TEST_STEP][PASSED] - biggestValue = getText(findTestObject("MvcApp/td_3")): Text of object 'Object Repository/MvcApp/td_3' is: '2019/06/17'
+
+2019-04-29 14:16:39 - [MESSAGE][PASSED] - Text of object 'Object Repository/MvcApp/td_3' is: '2019/06/17'
+
+2019-04-29 14:16:39 - [TEST_STEP][PASSED] - verifyGreaterThanOrEqual(biggestValue.compareTo(smallestValue), 0): Actual number '2' is greater than or equal to expected number '0'
+
+2019-04-29 14:16:39 - [MESSAGE][PASSED] - Actual number '2' is greater than or equal to expected number '0']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FilterNumbers" classname="Test Cases/FilterNumbers" status="PASSED">
+         <system-out><![CDATA[2019-04-29 14:16:39 - [TEST_CASE][PASSED] - Test Cases/FilterNumbers: Test Cases/FilterNumbers
+
+2019-04-29 14:16:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-29 14:16:39 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-29 14:16:40 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-04-29 14:16:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-29 14:16:44 - [TEST_STEP][PASSED] - navigateToUrl(baseURL): Navigate to 'http://localhost:61603/' successfully
+
+2019-04-29 14:16:46 - [MESSAGE][PASSED] - Navigate to 'http://localhost:61603/' successfully
+
+2019-04-29 14:16:46 - [TEST_STEP][PASSED] - click(findTestObject("MvcApp/a_Column Settings for Freight")): Object: 'Object Repository/MvcApp/a_Column Settings for Freight' is clicked on
+
+2019-04-29 14:16:47 - [MESSAGE][PASSED] - Object: 'Object Repository/MvcApp/a_Column Settings for Freight' is clicked on
+
+2019-04-29 14:16:47 - [TEST_STEP][PASSED] - mouseOver(findTestObject("MvcApp/span_Filter")): Object: 'Object Repository/MvcApp/span_Filter' is hovered
+
+2019-04-29 14:16:47 - [MESSAGE][PASSED] - Object: 'Object Repository/MvcApp/span_Filter' is hovered
+
+2019-04-29 14:16:47 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("MvcApp/span_Is equal to"), 5): Object 'Object Repository/MvcApp/span_Is equal to' is visible
+
+2019-04-29 14:16:47 - [MESSAGE][PASSED] - Object 'Object Repository/MvcApp/span_Is equal to' is visible
+
+2019-04-29 14:16:47 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("MvcApp/span_Is equal to"), 5): Object 'Object Repository/MvcApp/span_Is equal to' is clickable
+
+2019-04-29 14:16:47 - [MESSAGE][PASSED] - Object 'Object Repository/MvcApp/span_Is equal to' is clickable
+
+2019-04-29 14:16:47 - [TEST_STEP][PASSED] - click(findTestObject("MvcApp/span_Is equal to")): Object: 'Object Repository/MvcApp/span_Is equal to' is clicked on
+
+2019-04-29 14:16:48 - [MESSAGE][PASSED] - Object: 'Object Repository/MvcApp/span_Is equal to' is clicked on
+
+2019-04-29 14:16:48 - [TEST_STEP][PASSED] - click(findTestObject("MvcApp/li_Is greater than")): Object: 'Object Repository/MvcApp/li_Is greater than' is clicked on
+
+2019-04-29 14:16:48 - [MESSAGE][PASSED] - Object: 'Object Repository/MvcApp/li_Is greater than' is clicked on
+
+2019-04-29 14:16:48 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("MvcApp/span_Filter up arrow"), 5): Object 'Object Repository/MvcApp/span_Filter up arrow' is visible
+
+2019-04-29 14:16:48 - [MESSAGE][PASSED] - Object 'Object Repository/MvcApp/span_Filter up arrow' is visible
+
+2019-04-29 14:16:48 - [TEST_STEP][PASSED] - filterValues = 20: null
+
+2019-04-29 14:16:48 - [TEST_STEP][PASSED] - for ([i = 0, i < filterValues, (i++)]): Object: 'Object Repository/MvcApp/span_Filter up arrow' is clicked on
+
+2019-04-29 14:16:48 - [TEST_STEP][PASSED] - click(findTestObject("MvcApp/span_Filter up arrow")): Object: 'Object Repository/MvcApp/span_Filter up arrow' is clicked on
+
+2019-04-29 14:16:48 - [MESSAGE][PASSED] - Object: 'Object Repository/MvcApp/span_Filter up arrow' is clicked on
+
+2019-04-29 14:16:48 - [TEST_STEP][PASSED] - click(findTestObject("MvcApp/span_Filter up arrow")): Object: 'Object Repository/MvcApp/span_Filter up arrow' is clicked on
+
+2019-04-29 14:16:48 - [MESSAGE][PASSED] - Object: 'Object Repository/MvcApp/span_Filter up arrow' is clicked on
+
+2019-04-29 14:16:48 - [TEST_STEP][PASSED] - click(findTestObject("MvcApp/span_Filter up arrow")): Object: 'Object Repository/MvcApp/span_Filter up arrow' is clicked on
+
+2019-04-29 14:16:49 - [MESSAGE][PASSED] - Object: 'Object Repository/MvcApp/span_Filter up arrow' is clicked on
+
+2019-04-29 14:16:49 - [TEST_STEP][PASSED] - click(findTestObject("MvcApp/span_Filter up arrow")): Object: 'Object Repository/MvcApp/span_Filter up arrow' is clicked on
+
+2019-04-29 14:16:49 - [MESSAGE][PASSED] - Object: 'Object Repository/MvcApp/span_Filter up arrow' is clicked on
+
+2019-04-29 14:16:49 - [TEST_STEP][PASSED] - click(findTestObject("MvcApp/span_Filter up arrow")): Object: 'Object Repository/MvcApp/span_Filter up arrow' is clicked on
+
+2019-04-29 14:16:49 - [MESSAGE][PASSED] - Object: 'Object Repository/MvcApp/span_Filter up arrow' is clicked on
+
+2019-04-29 14:16:49 - [TEST_STEP][PASSED] - click(findTestObject("MvcApp/span_Filter up arrow")): Object: 'Object Repository/MvcApp/span_Filter up arrow' is clicked on
+
+2019-04-29 14:16:49 - [MESSAGE][PASSED] - Object: 'Object Repository/MvcApp/span_Filter up arrow' is clicked on
+
+2019-04-29 14:16:49 - [TEST_STEP][PASSED] - click(findTestObject("MvcApp/span_Filter up arrow")): Object: 'Object Repository/MvcApp/span_Filter up arrow' is clicked on
+
+2019-04-29 14:16:50 - [MESSAGE][PASSED] - Object: 'Object Repository/MvcApp/span_Filter up arrow' is clicked on
+
+2019-04-29 14:16:50 - [TEST_STEP][PASSED] - click(findTestObject("MvcApp/span_Filter up arrow")): Object: 'Object Repository/MvcApp/span_Filter up arrow' is clicked on
+
+2019-04-29 14:16:50 - [MESSAGE][PASSED] - Object: 'Object Repository/MvcApp/span_Filter up arrow' is clicked on
+
+2019-04-29 14:16:50 - [TEST_STEP][PASSED] - click(findTestObject("MvcApp/span_Filter up arrow")): Object: 'Object Repository/MvcApp/span_Filter up arrow' is clicked on
+
+2019-04-29 14:16:50 - [MESSAGE][PASSED] - Object: 'Object Repository/MvcApp/span_Filter up arrow' is clicked on
+
+2019-04-29 14:16:50 - [TEST_STEP][PASSED] - click(findTestObject("MvcApp/span_Filter up arrow")): Object: 'Object Repository/MvcApp/span_Filter up arrow' is clicked on
+
+2019-04-29 14:16:50 - [MESSAGE][PASSED] - Object: 'Object Repository/MvcApp/span_Filter up arrow' is clicked on
+
+2019-04-29 14:16:50 - [TEST_STEP][PASSED] - click(findTestObject("MvcApp/span_Filter up arrow")): Object: 'Object Repository/MvcApp/span_Filter up arrow' is clicked on
+
+2019-04-29 14:16:50 - [MESSAGE][PASSED] - Object: 'Object Repository/MvcApp/span_Filter up arrow' is clicked on
+
+2019-04-29 14:16:50 - [TEST_STEP][PASSED] - click(findTestObject("MvcApp/span_Filter up arrow")): Object: 'Object Repository/MvcApp/span_Filter up arrow' is clicked on
+
+2019-04-29 14:16:51 - [MESSAGE][PASSED] - Object: 'Object Repository/MvcApp/span_Filter up arrow' is clicked on
+
+2019-04-29 14:16:51 - [TEST_STEP][PASSED] - click(findTestObject("MvcApp/span_Filter up arrow")): Object: 'Object Repository/MvcApp/span_Filter up arrow' is clicked on
+
+2019-04-29 14:16:51 - [MESSAGE][PASSED] - Object: 'Object Repository/MvcApp/span_Filter up arrow' is clicked on
+
+2019-04-29 14:16:51 - [TEST_STEP][PASSED] - click(findTestObject("MvcApp/span_Filter up arrow")): Object: 'Object Repository/MvcApp/span_Filter up arrow' is clicked on
+
+2019-04-29 14:16:51 - [MESSAGE][PASSED] - Object: 'Object Repository/MvcApp/span_Filter up arrow' is clicked on
+
+2019-04-29 14:16:51 - [TEST_STEP][PASSED] - click(findTestObject("MvcApp/span_Filter up arrow")): Object: 'Object Repository/MvcApp/span_Filter up arrow' is clicked on
+
+2019-04-29 14:16:51 - [MESSAGE][PASSED] - Object: 'Object Repository/MvcApp/span_Filter up arrow' is clicked on
+
+2019-04-29 14:16:51 - [TEST_STEP][PASSED] - click(findTestObject("MvcApp/span_Filter up arrow")): Object: 'Object Repository/MvcApp/span_Filter up arrow' is clicked on
+
+2019-04-29 14:16:52 - [MESSAGE][PASSED] - Object: 'Object Repository/MvcApp/span_Filter up arrow' is clicked on
+
+2019-04-29 14:16:52 - [TEST_STEP][PASSED] - click(findTestObject("MvcApp/span_Filter up arrow")): Object: 'Object Repository/MvcApp/span_Filter up arrow' is clicked on
+
+2019-04-29 14:16:52 - [MESSAGE][PASSED] - Object: 'Object Repository/MvcApp/span_Filter up arrow' is clicked on
+
+2019-04-29 14:16:52 - [TEST_STEP][PASSED] - click(findTestObject("MvcApp/span_Filter up arrow")): Object: 'Object Repository/MvcApp/span_Filter up arrow' is clicked on
+
+2019-04-29 14:16:52 - [MESSAGE][PASSED] - Object: 'Object Repository/MvcApp/span_Filter up arrow' is clicked on
+
+2019-04-29 14:16:52 - [TEST_STEP][PASSED] - click(findTestObject("MvcApp/span_Filter up arrow")): Object: 'Object Repository/MvcApp/span_Filter up arrow' is clicked on
+
+2019-04-29 14:16:52 - [MESSAGE][PASSED] - Object: 'Object Repository/MvcApp/span_Filter up arrow' is clicked on
+
+2019-04-29 14:16:52 - [TEST_STEP][PASSED] - click(findTestObject("MvcApp/span_Filter up arrow")): Object: 'Object Repository/MvcApp/span_Filter up arrow' is clicked on
+
+2019-04-29 14:16:53 - [MESSAGE][PASSED] - Object: 'Object Repository/MvcApp/span_Filter up arrow' is clicked on
+
+2019-04-29 14:16:53 - [TEST_STEP][PASSED] - click(findTestObject("MvcApp/button_Filter")): Object: 'Object Repository/MvcApp/button_Filter' is clicked on
+
+2019-04-29 14:16:53 - [MESSAGE][PASSED] - Object: 'Object Repository/MvcApp/button_Filter' is clicked on
+
+2019-04-29 14:16:53 - [TEST_STEP][PASSED] - filterRow = 1: null
+
+2019-04-29 14:16:53 - [TEST_STEP][PASSED] - filterCol = 2: null
+
+2019-04-29 14:16:53 - [TEST_STEP][PASSED] - while (waitForElementPresent(findTestObject("MvcApp/td_Dynamic", ["testRow":filterRow, "testCol":filterCol]), 5, CONTINUE_ON_FAILURE)): Object 'Object Repository/MvcApp/td_Dynamic' is not present after 5 second(s)
+
+2019-04-29 14:16:53 - [MESSAGE][PASSED] - Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:16:53 - [TEST_STEP][PASSED] - verifyGreaterThan(Integer.parseInt(getText(findTestObject("MvcApp/td_Dynamic", ["testRow":filterRow, "testCol":filterCol]))), filterValues): Actual number '30' is greater than expected number '20'
+
+2019-04-29 14:16:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/MvcApp/td_Dynamic' is: '30'
+
+2019-04-29 14:16:53 - [MESSAGE][PASSED] - Actual number '30' is greater than expected number '20'
+
+2019-04-29 14:16:53 - [TEST_STEP][PASSED] - filterRow = filterRow + 1: Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:16:53 - [MESSAGE][PASSED] - Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:16:53 - [TEST_STEP][PASSED] - verifyGreaterThan(Integer.parseInt(getText(findTestObject("MvcApp/td_Dynamic", ["testRow":filterRow, "testCol":filterCol]))), filterValues): Actual number '40' is greater than expected number '20'
+
+2019-04-29 14:16:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/MvcApp/td_Dynamic' is: '40'
+
+2019-04-29 14:16:53 - [MESSAGE][PASSED] - Actual number '40' is greater than expected number '20'
+
+2019-04-29 14:16:53 - [TEST_STEP][PASSED] - filterRow = filterRow + 1: Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:16:53 - [MESSAGE][PASSED] - Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:16:53 - [TEST_STEP][PASSED] - verifyGreaterThan(Integer.parseInt(getText(findTestObject("MvcApp/td_Dynamic", ["testRow":filterRow, "testCol":filterCol]))), filterValues): Actual number '50' is greater than expected number '20'
+
+2019-04-29 14:16:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/MvcApp/td_Dynamic' is: '50'
+
+2019-04-29 14:16:53 - [MESSAGE][PASSED] - Actual number '50' is greater than expected number '20'
+
+2019-04-29 14:16:53 - [TEST_STEP][PASSED] - filterRow = filterRow + 1: Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:16:53 - [MESSAGE][PASSED] - Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:16:53 - [TEST_STEP][PASSED] - verifyGreaterThan(Integer.parseInt(getText(findTestObject("MvcApp/td_Dynamic", ["testRow":filterRow, "testCol":filterCol]))), filterValues): Actual number '60' is greater than expected number '20'
+
+2019-04-29 14:16:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/MvcApp/td_Dynamic' is: '60'
+
+2019-04-29 14:16:53 - [MESSAGE][PASSED] - Actual number '60' is greater than expected number '20'
+
+2019-04-29 14:16:53 - [TEST_STEP][PASSED] - filterRow = filterRow + 1: Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:16:53 - [MESSAGE][PASSED] - Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:16:53 - [TEST_STEP][PASSED] - verifyGreaterThan(Integer.parseInt(getText(findTestObject("MvcApp/td_Dynamic", ["testRow":filterRow, "testCol":filterCol]))), filterValues): Actual number '70' is greater than expected number '20'
+
+2019-04-29 14:16:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/MvcApp/td_Dynamic' is: '70'
+
+2019-04-29 14:16:53 - [MESSAGE][PASSED] - Actual number '70' is greater than expected number '20'
+
+2019-04-29 14:16:53 - [TEST_STEP][PASSED] - filterRow = filterRow + 1: Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:16:53 - [MESSAGE][PASSED] - Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:16:53 - [TEST_STEP][PASSED] - verifyGreaterThan(Integer.parseInt(getText(findTestObject("MvcApp/td_Dynamic", ["testRow":filterRow, "testCol":filterCol]))), filterValues): Actual number '80' is greater than expected number '20'
+
+2019-04-29 14:16:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/MvcApp/td_Dynamic' is: '80'
+
+2019-04-29 14:16:53 - [MESSAGE][PASSED] - Actual number '80' is greater than expected number '20'
+
+2019-04-29 14:16:53 - [TEST_STEP][PASSED] - filterRow = filterRow + 1: Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:16:53 - [MESSAGE][PASSED] - Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:16:53 - [TEST_STEP][PASSED] - verifyGreaterThan(Integer.parseInt(getText(findTestObject("MvcApp/td_Dynamic", ["testRow":filterRow, "testCol":filterCol]))), filterValues): Actual number '90' is greater than expected number '20'
+
+2019-04-29 14:16:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/MvcApp/td_Dynamic' is: '90'
+
+2019-04-29 14:16:53 - [MESSAGE][PASSED] - Actual number '90' is greater than expected number '20'
+
+2019-04-29 14:16:53 - [TEST_STEP][PASSED] - filterRow = filterRow + 1: Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:16:53 - [MESSAGE][PASSED] - Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:16:53 - [TEST_STEP][PASSED] - verifyGreaterThan(Integer.parseInt(getText(findTestObject("MvcApp/td_Dynamic", ["testRow":filterRow, "testCol":filterCol]))), filterValues): Actual number '100' is greater than expected number '20'
+
+2019-04-29 14:16:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/MvcApp/td_Dynamic' is: '100'
+
+2019-04-29 14:16:53 - [MESSAGE][PASSED] - Actual number '100' is greater than expected number '20'
+
+2019-04-29 14:16:53 - [TEST_STEP][PASSED] - filterRow = filterRow + 1: Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:16:53 - [MESSAGE][PASSED] - Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:16:53 - [TEST_STEP][PASSED] - verifyGreaterThan(Integer.parseInt(getText(findTestObject("MvcApp/td_Dynamic", ["testRow":filterRow, "testCol":filterCol]))), filterValues): Actual number '110' is greater than expected number '20'
+
+2019-04-29 14:16:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/MvcApp/td_Dynamic' is: '110'
+
+2019-04-29 14:16:53 - [MESSAGE][PASSED] - Actual number '110' is greater than expected number '20'
+
+2019-04-29 14:16:53 - [TEST_STEP][PASSED] - filterRow = filterRow + 1: Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:16:53 - [MESSAGE][PASSED] - Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:16:53 - [TEST_STEP][PASSED] - verifyGreaterThan(Integer.parseInt(getText(findTestObject("MvcApp/td_Dynamic", ["testRow":filterRow, "testCol":filterCol]))), filterValues): Actual number '120' is greater than expected number '20'
+
+2019-04-29 14:16:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/MvcApp/td_Dynamic' is: '120'
+
+2019-04-29 14:16:53 - [MESSAGE][PASSED] - Actual number '120' is greater than expected number '20'
+
+2019-04-29 14:16:53 - [TEST_STEP][PASSED] - filterRow = filterRow + 1: Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:16:53 - [MESSAGE][PASSED] - Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:16:53 - [TEST_STEP][PASSED] - verifyGreaterThan(Integer.parseInt(getText(findTestObject("MvcApp/td_Dynamic", ["testRow":filterRow, "testCol":filterCol]))), filterValues): Actual number '130' is greater than expected number '20'
+
+2019-04-29 14:16:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/MvcApp/td_Dynamic' is: '130'
+
+2019-04-29 14:16:53 - [MESSAGE][PASSED] - Actual number '130' is greater than expected number '20'
+
+2019-04-29 14:16:53 - [TEST_STEP][PASSED] - filterRow = filterRow + 1: Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:16:53 - [MESSAGE][PASSED] - Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:16:53 - [TEST_STEP][PASSED] - verifyGreaterThan(Integer.parseInt(getText(findTestObject("MvcApp/td_Dynamic", ["testRow":filterRow, "testCol":filterCol]))), filterValues): Actual number '140' is greater than expected number '20'
+
+2019-04-29 14:16:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/MvcApp/td_Dynamic' is: '140'
+
+2019-04-29 14:16:53 - [MESSAGE][PASSED] - Actual number '140' is greater than expected number '20'
+
+2019-04-29 14:16:53 - [TEST_STEP][PASSED] - filterRow = filterRow + 1: Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:16:53 - [MESSAGE][PASSED] - Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:16:53 - [TEST_STEP][PASSED] - verifyGreaterThan(Integer.parseInt(getText(findTestObject("MvcApp/td_Dynamic", ["testRow":filterRow, "testCol":filterCol]))), filterValues): Actual number '150' is greater than expected number '20'
+
+2019-04-29 14:16:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/MvcApp/td_Dynamic' is: '150'
+
+2019-04-29 14:16:53 - [MESSAGE][PASSED] - Actual number '150' is greater than expected number '20'
+
+2019-04-29 14:16:53 - [TEST_STEP][PASSED] - filterRow = filterRow + 1: Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:16:53 - [MESSAGE][PASSED] - Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:16:53 - [TEST_STEP][PASSED] - verifyGreaterThan(Integer.parseInt(getText(findTestObject("MvcApp/td_Dynamic", ["testRow":filterRow, "testCol":filterCol]))), filterValues): Actual number '160' is greater than expected number '20'
+
+2019-04-29 14:16:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/MvcApp/td_Dynamic' is: '160'
+
+2019-04-29 14:16:53 - [MESSAGE][PASSED] - Actual number '160' is greater than expected number '20'
+
+2019-04-29 14:16:53 - [TEST_STEP][PASSED] - filterRow = filterRow + 1: Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:16:53 - [MESSAGE][PASSED] - Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:16:53 - [TEST_STEP][PASSED] - verifyGreaterThan(Integer.parseInt(getText(findTestObject("MvcApp/td_Dynamic", ["testRow":filterRow, "testCol":filterCol]))), filterValues): Actual number '170' is greater than expected number '20'
+
+2019-04-29 14:16:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/MvcApp/td_Dynamic' is: '170'
+
+2019-04-29 14:16:53 - [MESSAGE][PASSED] - Actual number '170' is greater than expected number '20'
+
+2019-04-29 14:16:53 - [TEST_STEP][PASSED] - filterRow = filterRow + 1: Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:16:53 - [MESSAGE][PASSED] - Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:16:53 - [TEST_STEP][PASSED] - verifyGreaterThan(Integer.parseInt(getText(findTestObject("MvcApp/td_Dynamic", ["testRow":filterRow, "testCol":filterCol]))), filterValues): Actual number '180' is greater than expected number '20'
+
+2019-04-29 14:16:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/MvcApp/td_Dynamic' is: '180'
+
+2019-04-29 14:16:53 - [MESSAGE][PASSED] - Actual number '180' is greater than expected number '20'
+
+2019-04-29 14:16:53 - [TEST_STEP][PASSED] - filterRow = filterRow + 1: Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:16:53 - [MESSAGE][PASSED] - Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:16:53 - [TEST_STEP][PASSED] - verifyGreaterThan(Integer.parseInt(getText(findTestObject("MvcApp/td_Dynamic", ["testRow":filterRow, "testCol":filterCol]))), filterValues): Actual number '190' is greater than expected number '20'
+
+2019-04-29 14:16:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/MvcApp/td_Dynamic' is: '190'
+
+2019-04-29 14:16:53 - [MESSAGE][PASSED] - Actual number '190' is greater than expected number '20'
+
+2019-04-29 14:16:53 - [TEST_STEP][PASSED] - filterRow = filterRow + 1: Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:16:53 - [MESSAGE][PASSED] - Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:16:53 - [TEST_STEP][PASSED] - verifyGreaterThan(Integer.parseInt(getText(findTestObject("MvcApp/td_Dynamic", ["testRow":filterRow, "testCol":filterCol]))), filterValues): Actual number '200' is greater than expected number '20'
+
+2019-04-29 14:16:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/MvcApp/td_Dynamic' is: '200'
+
+2019-04-29 14:16:53 - [MESSAGE][PASSED] - Actual number '200' is greater than expected number '20'
+
+2019-04-29 14:16:53 - [TEST_STEP][PASSED] - filterRow = filterRow + 1: Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:16:53 - [MESSAGE][PASSED] - Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:16:53 - [TEST_STEP][PASSED] - verifyGreaterThan(Integer.parseInt(getText(findTestObject("MvcApp/td_Dynamic", ["testRow":filterRow, "testCol":filterCol]))), filterValues): Actual number '210' is greater than expected number '20'
+
+2019-04-29 14:16:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/MvcApp/td_Dynamic' is: '210'
+
+2019-04-29 14:16:53 - [MESSAGE][PASSED] - Actual number '210' is greater than expected number '20'
+
+2019-04-29 14:16:53 - [TEST_STEP][PASSED] - filterRow = filterRow + 1: Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:16:53 - [MESSAGE][PASSED] - Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:16:53 - [TEST_STEP][PASSED] - verifyGreaterThan(Integer.parseInt(getText(findTestObject("MvcApp/td_Dynamic", ["testRow":filterRow, "testCol":filterCol]))), filterValues): Actual number '220' is greater than expected number '20'
+
+2019-04-29 14:16:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/MvcApp/td_Dynamic' is: '220'
+
+2019-04-29 14:16:53 - [MESSAGE][PASSED] - Actual number '220' is greater than expected number '20'
+
+2019-04-29 14:16:53 - [TEST_STEP][PASSED] - filterRow = filterRow + 1: Object 'Object Repository/MvcApp/td_Dynamic' is not present after 5 second(s)
+
+2019-04-29 14:16:59 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id="grid"]/div[@class="k-grid-content k-auto-scrollable"]/table[1]/tbody[1]/tr[21]/td[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-04-29 14:16:59 - [MESSAGE][WARNING] - Object 'Object Repository/MvcApp/td_Dynamic' is not present after 5 second(s)
+
+2019-04-29 14:16:59 - [TEST_STEP][PASSED] - click(findTestObject("MvcApp/a_Column Settings for Freight")): Object: 'Object Repository/MvcApp/a_Column Settings for Freight' is clicked on
+
+2019-04-29 14:16:59 - [MESSAGE][PASSED] - Object: 'Object Repository/MvcApp/a_Column Settings for Freight' is clicked on
+
+2019-04-29 14:16:59 - [TEST_STEP][PASSED] - mouseOverOffset(findTestObject("MvcApp/span_Filter"), 15, 15): Object: 'Object Repository/MvcApp/span_Filter' is hovered using offset x = 15 and y = 15
+
+2019-04-29 14:16:59 - [MESSAGE][PASSED] - Object: 'Object Repository/MvcApp/span_Filter' is hovered using offset x = 15 and y = 15
+
+2019-04-29 14:16:59 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("MvcApp/span_Is greater than"), 5): Object 'Object Repository/MvcApp/span_Is greater than' is visible
+
+2019-04-29 14:16:59 - [MESSAGE][PASSED] - Object 'Object Repository/MvcApp/span_Is greater than' is visible
+
+2019-04-29 14:16:59 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("MvcApp/span_Is equal to"), 5): Object 'Object Repository/MvcApp/span_Is equal to' is visible
+
+2019-04-29 14:17:00 - [MESSAGE][PASSED] - Object 'Object Repository/MvcApp/span_Is equal to' is visible
+
+2019-04-29 14:17:00 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("MvcApp/span_Is greater than"), 5): Object 'Object Repository/MvcApp/span_Is greater than' is clickable
+
+2019-04-29 14:17:00 - [MESSAGE][PASSED] - Object 'Object Repository/MvcApp/span_Is greater than' is clickable
+
+2019-04-29 14:17:00 - [TEST_STEP][PASSED] - click(findTestObject("MvcApp/span_Is greater than")): Object: 'Object Repository/MvcApp/span_Is greater than' is clicked on
+
+2019-04-29 14:17:00 - [MESSAGE][PASSED] - Object: 'Object Repository/MvcApp/span_Is greater than' is clicked on
+
+2019-04-29 14:17:00 - [TEST_STEP][PASSED] - click(findTestObject("MvcApp/li_Is less than")): Object: 'Object Repository/MvcApp/li_Is less than' is clicked on
+
+2019-04-29 14:17:00 - [MESSAGE][PASSED] - Object: 'Object Repository/MvcApp/li_Is less than' is clicked on
+
+2019-04-29 14:17:00 - [TEST_STEP][PASSED] - click(findTestObject("MvcApp/button_Filter")): Object: 'Object Repository/MvcApp/button_Filter' is clicked on
+
+2019-04-29 14:17:00 - [MESSAGE][PASSED] - Object: 'Object Repository/MvcApp/button_Filter' is clicked on
+
+2019-04-29 14:17:00 - [TEST_STEP][PASSED] - filterRow = 1: null
+
+2019-04-29 14:17:00 - [TEST_STEP][PASSED] - filterCol = 2: null
+
+2019-04-29 14:17:00 - [TEST_STEP][PASSED] - while (waitForElementPresent(findTestObject("MvcApp/td_Dynamic", ["testRow":filterRow, "testCol":filterCol]), 5, CONTINUE_ON_FAILURE)): Object 'Object Repository/MvcApp/td_Dynamic' is not present after 5 second(s)
+
+2019-04-29 14:17:00 - [MESSAGE][PASSED] - Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:17:00 - [TEST_STEP][PASSED] - verifyLessThan(Integer.parseInt(getText(findTestObject("MvcApp/td_Dynamic", ["testRow":filterRow, "testCol":filterCol]))), filterValues): Actual number '0' is less than expected number '20'
+
+2019-04-29 14:17:00 - [MESSAGE][PASSED] - Text of object 'Object Repository/MvcApp/td_Dynamic' is: '0'
+
+2019-04-29 14:17:00 - [MESSAGE][PASSED] - Actual number '0' is less than expected number '20'
+
+2019-04-29 14:17:00 - [TEST_STEP][PASSED] - filterRow = filterRow + 1: Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:17:00 - [MESSAGE][PASSED] - Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:17:00 - [TEST_STEP][PASSED] - verifyLessThan(Integer.parseInt(getText(findTestObject("MvcApp/td_Dynamic", ["testRow":filterRow, "testCol":filterCol]))), filterValues): Actual number '10' is less than expected number '20'
+
+2019-04-29 14:17:00 - [MESSAGE][PASSED] - Text of object 'Object Repository/MvcApp/td_Dynamic' is: '10'
+
+2019-04-29 14:17:00 - [MESSAGE][PASSED] - Actual number '10' is less than expected number '20'
+
+2019-04-29 14:17:00 - [TEST_STEP][PASSED] - filterRow = filterRow + 1: Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:17:00 - [MESSAGE][PASSED] - Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:17:00 - [TEST_STEP][PASSED] - verifyLessThan(Integer.parseInt(getText(findTestObject("MvcApp/td_Dynamic", ["testRow":filterRow, "testCol":filterCol]))), filterValues): Actual number '0' is less than expected number '20'
+
+2019-04-29 14:17:00 - [MESSAGE][PASSED] - Text of object 'Object Repository/MvcApp/td_Dynamic' is: '0'
+
+2019-04-29 14:17:00 - [MESSAGE][PASSED] - Actual number '0' is less than expected number '20'
+
+2019-04-29 14:17:00 - [TEST_STEP][PASSED] - filterRow = filterRow + 1: Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:17:00 - [MESSAGE][PASSED] - Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:17:00 - [TEST_STEP][PASSED] - verifyLessThan(Integer.parseInt(getText(findTestObject("MvcApp/td_Dynamic", ["testRow":filterRow, "testCol":filterCol]))), filterValues): Actual number '10' is less than expected number '20'
+
+2019-04-29 14:17:00 - [MESSAGE][PASSED] - Text of object 'Object Repository/MvcApp/td_Dynamic' is: '10'
+
+2019-04-29 14:17:00 - [MESSAGE][PASSED] - Actual number '10' is less than expected number '20'
+
+2019-04-29 14:17:00 - [TEST_STEP][PASSED] - filterRow = filterRow + 1: Object 'Object Repository/MvcApp/td_Dynamic' is not present after 5 second(s)
+
+2019-04-29 14:17:06 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id="grid"]/div[@class="k-grid-content k-auto-scrollable"]/table[1]/tbody[1]/tr[5]/td[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-04-29 14:17:06 - [MESSAGE][WARNING] - Object 'Object Repository/MvcApp/td_Dynamic' is not present after 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FilterText" classname="Test Cases/FilterText" status="PASSED">
+         <system-out><![CDATA[2019-04-29 14:17:06 - [TEST_CASE][PASSED] - Test Cases/FilterText: Test Cases/FilterText
+
+2019-04-29 14:17:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-29 14:17:06 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-29 14:17:07 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-04-29 14:17:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-29 14:17:10 - [TEST_STEP][PASSED] - navigateToUrl(baseURL): Navigate to 'http://localhost:61603/' successfully
+
+2019-04-29 14:17:13 - [MESSAGE][PASSED] - Navigate to 'http://localhost:61603/' successfully
+
+2019-04-29 14:17:13 - [TEST_STEP][PASSED] - click(findTestObject("MvcApp/a_Column Settings for Ship Name")): Object: 'Object Repository/MvcApp/a_Column Settings for Ship Name' is clicked on
+
+2019-04-29 14:17:13 - [MESSAGE][PASSED] - Object: 'Object Repository/MvcApp/a_Column Settings for Ship Name' is clicked on
+
+2019-04-29 14:17:13 - [TEST_STEP][PASSED] - mouseOver(findTestObject("MvcApp/span_Filter")): Object: 'Object Repository/MvcApp/span_Filter' is hovered
+
+2019-04-29 14:17:14 - [MESSAGE][PASSED] - Object: 'Object Repository/MvcApp/span_Filter' is hovered
+
+2019-04-29 14:17:14 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("MvcApp/span_Is equal to"), 5): Object 'Object Repository/MvcApp/span_Is equal to' is visible
+
+2019-04-29 14:17:14 - [MESSAGE][PASSED] - Object 'Object Repository/MvcApp/span_Is equal to' is visible
+
+2019-04-29 14:17:14 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("MvcApp/span_Is equal to"), 5): Object 'Object Repository/MvcApp/span_Is equal to' is clickable
+
+2019-04-29 14:17:14 - [MESSAGE][PASSED] - Object 'Object Repository/MvcApp/span_Is equal to' is clickable
+
+2019-04-29 14:17:14 - [TEST_STEP][PASSED] - click(findTestObject("MvcApp/span_Is equal to")): Object: 'Object Repository/MvcApp/span_Is equal to' is clicked on
+
+2019-04-29 14:17:14 - [MESSAGE][PASSED] - Object: 'Object Repository/MvcApp/span_Is equal to' is clicked on
+
+2019-04-29 14:17:14 - [TEST_STEP][PASSED] - click(findTestObject("MvcApp/li_Contains")): Object: 'Object Repository/MvcApp/li_Contains' is clicked on
+
+2019-04-29 14:17:15 - [MESSAGE][PASSED] - Object: 'Object Repository/MvcApp/li_Contains' is clicked on
+
+2019-04-29 14:17:15 - [TEST_STEP][PASSED] - setText(findTestObject("MvcApp/input_Filter textbox"), "Ship"): Text 'Ship' is set on object 'Object Repository/MvcApp/input_Filter textbox'
+
+2019-04-29 14:17:15 - [MESSAGE][PASSED] - Text 'Ship' is set on object 'Object Repository/MvcApp/input_Filter textbox'
+
+2019-04-29 14:17:15 - [TEST_STEP][PASSED] - click(findTestObject("MvcApp/button_Filter")): Object: 'Object Repository/MvcApp/button_Filter' is clicked on
+
+2019-04-29 14:17:15 - [MESSAGE][PASSED] - Object: 'Object Repository/MvcApp/button_Filter' is clicked on
+
+2019-04-29 14:17:15 - [TEST_STEP][PASSED] - filterRow = 1: null
+
+2019-04-29 14:17:15 - [TEST_STEP][PASSED] - filterCol = 4: null
+
+2019-04-29 14:17:15 - [TEST_STEP][PASSED] - while (waitForElementPresent(findTestObject("MvcApp/td_Dynamic", ["testRow":filterRow, "testCol":filterCol]), 2, CONTINUE_ON_FAILURE)): Object 'Object Repository/MvcApp/td_Dynamic' is not present after 2 second(s)
+
+2019-04-29 14:17:15 - [MESSAGE][PASSED] - Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:17:15 - [TEST_STEP][PASSED] - assert getText(findTestObject("MvcApp/td_Dynamic", ["testRow":filterRow, "testCol":filterCol])).contains("Ship"): Text of object 'Object Repository/MvcApp/td_Dynamic' is: 'ShipName 0'
+
+2019-04-29 14:17:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/MvcApp/td_Dynamic' is: 'ShipName 0'
+
+2019-04-29 14:17:15 - [TEST_STEP][PASSED] - filterRow = filterRow + 1: Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:17:15 - [MESSAGE][PASSED] - Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:17:15 - [TEST_STEP][PASSED] - assert getText(findTestObject("MvcApp/td_Dynamic", ["testRow":filterRow, "testCol":filterCol])).contains("Ship"): Text of object 'Object Repository/MvcApp/td_Dynamic' is: 'ShipName 1'
+
+2019-04-29 14:17:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/MvcApp/td_Dynamic' is: 'ShipName 1'
+
+2019-04-29 14:17:15 - [TEST_STEP][PASSED] - filterRow = filterRow + 1: Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:17:15 - [MESSAGE][PASSED] - Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:17:15 - [TEST_STEP][PASSED] - assert getText(findTestObject("MvcApp/td_Dynamic", ["testRow":filterRow, "testCol":filterCol])).contains("Ship"): Text of object 'Object Repository/MvcApp/td_Dynamic' is: 'ShipName 2'
+
+2019-04-29 14:17:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/MvcApp/td_Dynamic' is: 'ShipName 2'
+
+2019-04-29 14:17:15 - [TEST_STEP][PASSED] - filterRow = filterRow + 1: Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:17:15 - [MESSAGE][PASSED] - Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:17:15 - [TEST_STEP][PASSED] - assert getText(findTestObject("MvcApp/td_Dynamic", ["testRow":filterRow, "testCol":filterCol])).contains("Ship"): Text of object 'Object Repository/MvcApp/td_Dynamic' is: 'ShipName 3'
+
+2019-04-29 14:17:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/MvcApp/td_Dynamic' is: 'ShipName 3'
+
+2019-04-29 14:17:15 - [TEST_STEP][PASSED] - filterRow = filterRow + 1: Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:17:15 - [MESSAGE][PASSED] - Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:17:15 - [TEST_STEP][PASSED] - assert getText(findTestObject("MvcApp/td_Dynamic", ["testRow":filterRow, "testCol":filterCol])).contains("Ship"): Text of object 'Object Repository/MvcApp/td_Dynamic' is: 'ShipName 4'
+
+2019-04-29 14:17:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/MvcApp/td_Dynamic' is: 'ShipName 4'
+
+2019-04-29 14:17:15 - [TEST_STEP][PASSED] - filterRow = filterRow + 1: Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:17:15 - [MESSAGE][PASSED] - Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:17:15 - [TEST_STEP][PASSED] - assert getText(findTestObject("MvcApp/td_Dynamic", ["testRow":filterRow, "testCol":filterCol])).contains("Ship"): Text of object 'Object Repository/MvcApp/td_Dynamic' is: 'ShipName 5'
+
+2019-04-29 14:17:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/MvcApp/td_Dynamic' is: 'ShipName 5'
+
+2019-04-29 14:17:15 - [TEST_STEP][PASSED] - filterRow = filterRow + 1: Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:17:15 - [MESSAGE][PASSED] - Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:17:15 - [TEST_STEP][PASSED] - assert getText(findTestObject("MvcApp/td_Dynamic", ["testRow":filterRow, "testCol":filterCol])).contains("Ship"): Text of object 'Object Repository/MvcApp/td_Dynamic' is: 'ShipName 6'
+
+2019-04-29 14:17:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/MvcApp/td_Dynamic' is: 'ShipName 6'
+
+2019-04-29 14:17:15 - [TEST_STEP][PASSED] - filterRow = filterRow + 1: Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:17:15 - [MESSAGE][PASSED] - Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:17:15 - [TEST_STEP][PASSED] - assert getText(findTestObject("MvcApp/td_Dynamic", ["testRow":filterRow, "testCol":filterCol])).contains("Ship"): Text of object 'Object Repository/MvcApp/td_Dynamic' is: 'ShipName 7'
+
+2019-04-29 14:17:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/MvcApp/td_Dynamic' is: 'ShipName 7'
+
+2019-04-29 14:17:15 - [TEST_STEP][PASSED] - filterRow = filterRow + 1: Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:17:15 - [MESSAGE][PASSED] - Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:17:15 - [TEST_STEP][PASSED] - assert getText(findTestObject("MvcApp/td_Dynamic", ["testRow":filterRow, "testCol":filterCol])).contains("Ship"): Text of object 'Object Repository/MvcApp/td_Dynamic' is: 'ShipName 8'
+
+2019-04-29 14:17:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/MvcApp/td_Dynamic' is: 'ShipName 8'
+
+2019-04-29 14:17:15 - [TEST_STEP][PASSED] - filterRow = filterRow + 1: Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:17:15 - [MESSAGE][PASSED] - Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:17:15 - [TEST_STEP][PASSED] - assert getText(findTestObject("MvcApp/td_Dynamic", ["testRow":filterRow, "testCol":filterCol])).contains("Ship"): Text of object 'Object Repository/MvcApp/td_Dynamic' is: 'ShipName 9'
+
+2019-04-29 14:17:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/MvcApp/td_Dynamic' is: 'ShipName 9'
+
+2019-04-29 14:17:15 - [TEST_STEP][PASSED] - filterRow = filterRow + 1: Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:17:15 - [MESSAGE][PASSED] - Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:17:15 - [TEST_STEP][PASSED] - assert getText(findTestObject("MvcApp/td_Dynamic", ["testRow":filterRow, "testCol":filterCol])).contains("Ship"): Text of object 'Object Repository/MvcApp/td_Dynamic' is: 'ShipName 10'
+
+2019-04-29 14:17:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/MvcApp/td_Dynamic' is: 'ShipName 10'
+
+2019-04-29 14:17:15 - [TEST_STEP][PASSED] - filterRow = filterRow + 1: Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:17:15 - [MESSAGE][PASSED] - Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:17:15 - [TEST_STEP][PASSED] - assert getText(findTestObject("MvcApp/td_Dynamic", ["testRow":filterRow, "testCol":filterCol])).contains("Ship"): Text of object 'Object Repository/MvcApp/td_Dynamic' is: 'ShipName 11'
+
+2019-04-29 14:17:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/MvcApp/td_Dynamic' is: 'ShipName 11'
+
+2019-04-29 14:17:15 - [TEST_STEP][PASSED] - filterRow = filterRow + 1: Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:17:15 - [MESSAGE][PASSED] - Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:17:15 - [TEST_STEP][PASSED] - assert getText(findTestObject("MvcApp/td_Dynamic", ["testRow":filterRow, "testCol":filterCol])).contains("Ship"): Text of object 'Object Repository/MvcApp/td_Dynamic' is: 'ShipName 12'
+
+2019-04-29 14:17:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/MvcApp/td_Dynamic' is: 'ShipName 12'
+
+2019-04-29 14:17:15 - [TEST_STEP][PASSED] - filterRow = filterRow + 1: Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:17:15 - [MESSAGE][PASSED] - Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:17:15 - [TEST_STEP][PASSED] - assert getText(findTestObject("MvcApp/td_Dynamic", ["testRow":filterRow, "testCol":filterCol])).contains("Ship"): Text of object 'Object Repository/MvcApp/td_Dynamic' is: 'ShipName 13'
+
+2019-04-29 14:17:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/MvcApp/td_Dynamic' is: 'ShipName 13'
+
+2019-04-29 14:17:15 - [TEST_STEP][PASSED] - filterRow = filterRow + 1: Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:17:15 - [MESSAGE][PASSED] - Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:17:15 - [TEST_STEP][PASSED] - assert getText(findTestObject("MvcApp/td_Dynamic", ["testRow":filterRow, "testCol":filterCol])).contains("Ship"): Text of object 'Object Repository/MvcApp/td_Dynamic' is: 'ShipName 14'
+
+2019-04-29 14:17:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/MvcApp/td_Dynamic' is: 'ShipName 14'
+
+2019-04-29 14:17:15 - [TEST_STEP][PASSED] - filterRow = filterRow + 1: Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:17:15 - [MESSAGE][PASSED] - Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:17:15 - [TEST_STEP][PASSED] - assert getText(findTestObject("MvcApp/td_Dynamic", ["testRow":filterRow, "testCol":filterCol])).contains("Ship"): Text of object 'Object Repository/MvcApp/td_Dynamic' is: 'ShipName 15'
+
+2019-04-29 14:17:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/MvcApp/td_Dynamic' is: 'ShipName 15'
+
+2019-04-29 14:17:15 - [TEST_STEP][PASSED] - filterRow = filterRow + 1: Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:17:15 - [MESSAGE][PASSED] - Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:17:15 - [TEST_STEP][PASSED] - assert getText(findTestObject("MvcApp/td_Dynamic", ["testRow":filterRow, "testCol":filterCol])).contains("Ship"): Text of object 'Object Repository/MvcApp/td_Dynamic' is: 'ShipName 16'
+
+2019-04-29 14:17:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/MvcApp/td_Dynamic' is: 'ShipName 16'
+
+2019-04-29 14:17:16 - [TEST_STEP][PASSED] - filterRow = filterRow + 1: Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:17:16 - [MESSAGE][PASSED] - Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:17:16 - [TEST_STEP][PASSED] - assert getText(findTestObject("MvcApp/td_Dynamic", ["testRow":filterRow, "testCol":filterCol])).contains("Ship"): Text of object 'Object Repository/MvcApp/td_Dynamic' is: 'ShipName 17'
+
+2019-04-29 14:17:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/MvcApp/td_Dynamic' is: 'ShipName 17'
+
+2019-04-29 14:17:16 - [TEST_STEP][PASSED] - filterRow = filterRow + 1: Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:17:16 - [MESSAGE][PASSED] - Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:17:16 - [TEST_STEP][PASSED] - assert getText(findTestObject("MvcApp/td_Dynamic", ["testRow":filterRow, "testCol":filterCol])).contains("Ship"): Text of object 'Object Repository/MvcApp/td_Dynamic' is: 'ShipName 18'
+
+2019-04-29 14:17:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/MvcApp/td_Dynamic' is: 'ShipName 18'
+
+2019-04-29 14:17:16 - [TEST_STEP][PASSED] - filterRow = filterRow + 1: Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:17:16 - [MESSAGE][PASSED] - Object 'Object Repository/MvcApp/td_Dynamic' is present
+
+2019-04-29 14:17:16 - [TEST_STEP][PASSED] - assert getText(findTestObject("MvcApp/td_Dynamic", ["testRow":filterRow, "testCol":filterCol])).contains("Ship"): Text of object 'Object Repository/MvcApp/td_Dynamic' is: 'ShipName 19'
+
+2019-04-29 14:17:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/MvcApp/td_Dynamic' is: 'ShipName 19'
+
+2019-04-29 14:17:16 - [TEST_STEP][PASSED] - filterRow = filterRow + 1: Object 'Object Repository/MvcApp/td_Dynamic' is not present after 2 second(s)
+
+2019-04-29 14:17:18 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id="grid"]/div[@class="k-grid-content k-auto-scrollable"]/table[1]/tbody[1]/tr[21]/td[4]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-04-29 14:17:18 - [MESSAGE][WARNING] - Object 'Object Repository/MvcApp/td_Dynamic' is not present after 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MultiFilters" classname="Test Cases/MultiFilters" status="PASSED">
+         <system-out><![CDATA[2019-04-29 14:17:18 - [TEST_CASE][PASSED] - Test Cases/MultiFilters: Test Cases/MultiFilters
+
+2019-04-29 14:17:18 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GroupData" classname="Test Cases/GroupData" status="PASSED">
+         <system-out><![CDATA[2019-04-29 14:17:18 - [TEST_CASE][PASSED] - Test Cases/GroupData: Test Cases/GroupData
+
+2019-04-29 14:17:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-29 14:17:18 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-29 14:17:19 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-04-29 14:17:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-29 14:17:23 - [TEST_STEP][PASSED] - navigateToUrl(baseURL): Navigate to 'http://localhost:61603/' successfully
+
+2019-04-29 14:18:18 - [MESSAGE][PASSED] - Navigate to 'http://localhost:61603/' successfully
+
+2019-04-29 14:18:18 - [TEST_STEP][PASSED] - click(findTestObject("MvcApp/a_Column Settings for Ship Name")): Object: 'Object Repository/MvcApp/a_Column Settings for Ship Name' is clicked on
+
+2019-04-29 14:18:18 - [MESSAGE][PASSED] - Object: 'Object Repository/MvcApp/a_Column Settings for Ship Name' is clicked on
+
+2019-04-29 14:18:18 - [TEST_STEP][PASSED] - mouseOver(findTestObject("MvcApp/span_Filter")): Object: 'Object Repository/MvcApp/span_Filter' is hovered
+
+2019-04-29 14:18:18 - [MESSAGE][PASSED] - Object: 'Object Repository/MvcApp/span_Filter' is hovered
+
+2019-04-29 14:18:18 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("MvcApp/span_Is equal to"), 5): Object 'Object Repository/MvcApp/span_Is equal to' is visible
+
+2019-04-29 14:18:19 - [MESSAGE][PASSED] - Object 'Object Repository/MvcApp/span_Is equal to' is visible
+
+2019-04-29 14:18:19 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("MvcApp/span_Is equal to"), 5): Object 'Object Repository/MvcApp/span_Is equal to' is clickable
+
+2019-04-29 14:18:19 - [MESSAGE][PASSED] - Object 'Object Repository/MvcApp/span_Is equal to' is clickable
+
+2019-04-29 14:18:19 - [TEST_STEP][PASSED] - click(findTestObject("MvcApp/span_Is equal to")): Object: 'Object Repository/MvcApp/span_Is equal to' is clicked on
+
+2019-04-29 14:18:19 - [MESSAGE][PASSED] - Object: 'Object Repository/MvcApp/span_Is equal to' is clicked on
+
+2019-04-29 14:18:19 - [TEST_STEP][PASSED] - click(findTestObject("MvcApp/li_Contains")): Object: 'Object Repository/MvcApp/li_Contains' is clicked on
+
+2019-04-29 14:18:19 - [MESSAGE][PASSED] - Object: 'Object Repository/MvcApp/li_Contains' is clicked on
+
+2019-04-29 14:18:19 - [TEST_STEP][PASSED] - setText(findTestObject("MvcApp/input_Filter textbox"), "5"): Text '5' is set on object 'Object Repository/MvcApp/input_Filter textbox'
+
+2019-04-29 14:18:19 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/MvcApp/input_Filter textbox'
+
+2019-04-29 14:18:19 - [TEST_STEP][PASSED] - click(findTestObject("MvcApp/button_Filter")): Object: 'Object Repository/MvcApp/button_Filter' is clicked on
+
+2019-04-29 14:18:19 - [MESSAGE][PASSED] - Object: 'Object Repository/MvcApp/button_Filter' is clicked on
+
+2019-04-29 14:18:19 - [TEST_STEP][PASSED] - dragAndDropToObject(findTestObject("Object Repository/MvcApp/a_Ship Name"), findTestObject("Object Repository/MvcApp/div_Area to Group By")): Dragged object with id 'Object Repository/MvcApp/a_Ship Name' to object with id 'TestObject - 'Object Repository/MvcApp/div_Area to Group By'' successfully
+
+2019-04-29 14:18:20 - [MESSAGE][PASSED] - Dragged object with id 'Object Repository/MvcApp/a_Ship Name' to object with id 'TestObject - 'Object Repository/MvcApp/div_Area to Group By'' successfully
+
+2019-04-29 14:18:20 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("MvcApp/p_Grouped Items Header")): Object 'Object Repository/MvcApp/p_Grouped Items Header' is visible
+
+2019-04-29 14:18:20 - [MESSAGE][PASSED] - Object 'Object Repository/MvcApp/p_Grouped Items Header' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MenuItems" classname="Test Cases/MenuItems" status="PASSED">
+         <system-out><![CDATA[2019-04-29 14:18:20 - [TEST_CASE][PASSED] - Test Cases/MenuItems: Test Cases/MenuItems
+
+2019-04-29 14:18:21 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-29 14:16:02 - [TEST_SUITE][PASSED] - TestKendoWidgets: Test Cases/MenuItems]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
