@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>To group data by values of some of the columns. First a column is filtered, then the data in it is grouped. Finaly the test checks a header for grouped data is visible.</description>
    <name>GroupData</name>
-   <tag></tag>
+   <tag>KendoUI, Grid, Group</tag>
    <comment></comment>
    <testCaseGuid>bc8c8e69-9e5c-4b9f-90bc-813807f39689</testCaseGuid>
 </TestCaseEntity>

@@ -13,6 +13,14 @@ import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as Cucumber
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.testdata.TestData as TestData
 
+/*
+ * To test sorting by text value in column, alphabetically
+ * this test case sorts ascending and descending
+ * and saves the value in the first row in the grid.
+ * Hence the smalles and the biggest. Finaly the test compares the values
+ * to check the sorting is working.
+ */
+
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.baseURL)

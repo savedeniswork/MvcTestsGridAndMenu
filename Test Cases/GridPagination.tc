@@ -26,4 +26,11 @@
       <masked>false</masked>
       <name>totalGridRows</name>
    </variable>
+   <variable>
+      <defaultValue>20</defaultValue>
+      <description>Used for parametrisation of the configured page value.</description>
+      <id>b964bb47-5d87-44b3-885d-1d2738e9fc92</id>
+      <masked>false</masked>
+      <name>confPageV</name>
+   </variable>
 </TestCaseEntity>

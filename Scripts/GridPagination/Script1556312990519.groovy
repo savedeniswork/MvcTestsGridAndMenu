@@ -18,7 +18,7 @@ import org.openqa.selenium.By as By
 /*
  * To test pagination this test case switch on different pages
  * and counts the rows in each page grid and checks they are less
- * than the page numbers configured. Finally the system checks 
+ * than the page numbers configured. Finally the test checks 
  * the pagination label.
  */
 'Open browser.'
@@ -43,7 +43,7 @@ assert totalGridRows <= configPage
 WebUI.click(findTestObject('MvcApp/span_k-icon k-i-arrow-end-left'))
 
 'Check the paginationn is 20 items per page, hence the label is from 1 to 20'
-WebUI.verifyElementPresent(findTestObject('MvcApp/span_1 - 20 page label'), 5)
+WebUI.verifyElementPresent(findTestObject('MvcApp/span_1 - 20 page label',[('confPage'):confPageV]), 5)
 
 'Find all elements that are rows in the grid and asign the array of elements to gridRows variable.'
 gridRows = DriverFactory.getWebDriver().findElements(By.xpath('//tbody[@role=\'rowgroup\']/tr'))

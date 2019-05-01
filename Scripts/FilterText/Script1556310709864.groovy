@@ -14,6 +14,13 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+/*
+ * To test filters by text this test case select type of filter
+ * e.g. contains, equal. Then enters the value to filster by. 
+ * Finaly the test checks the values in the rows present 
+ * in the grid after filtering.
+ */
+
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.baseURL)
@@ -30,19 +37,17 @@ WebUI.click(findTestObject('MvcApp/span_Is equal to'))
 
 WebUI.click(findTestObject('MvcApp/li_Contains'))
 
-WebUI.setText(findTestObject('MvcApp/input_Filter textbox'), 'Ship')
+WebUI.setText(findTestObject('MvcApp/input_Filter textbox'), textToFilter)
 
 WebUI.click(findTestObject('MvcApp/button_Filter'))
-
-filterRow=1
-filterCol=4
 
 while (WebUI.waitForElementPresent(findTestObject('MvcApp/td_Dynamic',[('testRow'):filterRow,('testCol'):filterCol]),2,FailureHandling.CONTINUE_ON_FAILURE))
 {
 	
-	assert (WebUI.getText(findTestObject('MvcApp/td_Dynamic',[('testRow'):filterRow,('testCol'):filterCol])).contains('Ship'))
+	assert (WebUI.getText(findTestObject('MvcApp/td_Dynamic',[('testRow'):filterRow,('testCol'):filterCol])).contains(textToFilter))
 	
 	filterRow=filterRow+1
 	
 }
 
+'The rest checks (verifications) for this filter could be done in a similar way'

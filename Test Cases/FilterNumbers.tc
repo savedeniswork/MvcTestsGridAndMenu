@@ -1,8 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>To test filters by number this test case select type of filter e.g. greater than, less than, equal. Then clicks the filter up arrow to select the value to use the filter by. Finaly the test checks the values in the rows present in the grid after filtering.</description>
    <name>FilterNumbers</name>
-   <tag></tag>
-   <comment></comment>
+   <tag>KendoUI, Grid, Filter Numbers</tag>
+   <comment>The rest checks (verifications) for this filter could be done in a similar way</comment>
    <testCaseGuid>3c687d6e-9014-4821-a9bf-639025e41b71</testCaseGuid>
+   <variable>
+      <defaultValue>20</defaultValue>
+      <description>The value to filter by.</description>
+      <id>dd2994f0-d270-494b-8a2b-8224234cbfbe</id>
+      <masked>false</masked>
+      <name>filterValues</name>
+   </variable>
+   <variable>
+      <defaultValue>1</defaultValue>
+      <description>Initial row in the grid to start the verification from.</description>
+      <id>88da8b4c-c342-437d-ac59-a95bc90d3f33</id>
+      <masked>false</masked>
+      <name>filterRow</name>
+   </variable>
+   <variable>
+      <defaultValue>2</defaultValue>
+      <description>Column in the grid to verify its value is filtered.</description>
+      <id>a0669be8-ef05-4e8e-89fa-87e2f1673f86</id>
+      <masked>false</masked>
+      <name>filterCol</name>
+   </variable>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description>Used for parametrisation of the row.</description>
+      <id>425d9fae-1649-480c-8832-18afc0e698fa</id>
+      <masked>false</masked>
+      <name>testRow</name>
+   </variable>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description>Used for parametrisation of the column.</description>
+      <id>0ee9c976-a4a6-4931-97ff-9cee4d169fbd</id>
+      <masked>false</masked>
+      <name>testCol</name>
+   </variable>
 </TestCaseEntity>

@@ -1,8 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>To test more than one filter this test case select column and filter e.g. greater than, less than, equal for it. Then selects another one and applies filter for it. Finaly the test checks the values in the rows present in the grid after filtering.</description>
    <name>MultiFilters</name>
-   <tag></tag>
+   <tag>KendoUI, Grid, Filter Multy Columns</tag>
    <comment></comment>
    <testCaseGuid>4d1abaaa-a899-407e-9afc-a740c0279fb1</testCaseGuid>
+   <variable>
+      <defaultValue>20</defaultValue>
+      <description>The numeric value to filter by.</description>
+      <id>dd2994f0-d270-494b-8a2b-8224234cbfbe</id>
+      <masked>false</masked>
+      <name>filterValues</name>
+   </variable>
+   <variable>
+      <defaultValue>1</defaultValue>
+      <description>Initial row in the grid to start the verification from.</description>
+      <id>88da8b4c-c342-437d-ac59-a95bc90d3f33</id>
+      <masked>false</masked>
+      <name>filterRow</name>
+   </variable>
+   <variable>
+      <defaultValue>2</defaultValue>
+      <description>Column in the grid to verify its value is filtered.</description>
+      <id>a0669be8-ef05-4e8e-89fa-87e2f1673f86</id>
+      <masked>false</masked>
+      <name>filterCol</name>
+   </variable>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description>Used for parametrisation of the row.</description>
+      <id>425d9fae-1649-480c-8832-18afc0e698fa</id>
+      <masked>false</masked>
+      <name>testRow</name>
+   </variable>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description>Used for parametrisation of the column.</description>
+      <id>0ee9c976-a4a6-4931-97ff-9cee4d169fbd</id>
+      <masked>false</masked>
+      <name>testCol</name>
+   </variable>
+   <variable>
+      <defaultValue>'Name 2'</defaultValue>
+      <description>The text value to filter by.</description>
+      <id>d8e37c75-c8d8-4339-9851-4d250e1dfdbc</id>
+      <masked>false</masked>
+      <name>filterText</name>
+   </variable>
+   <variable>
+      <defaultValue>4</defaultValue>
+      <description>Column in the grid to verify its text value is filtered.</description>
+      <id>c9a0a878-97c7-4710-aa9d-0f4092070e83</id>
+      <masked>false</masked>
+      <name>filterColTxt</name>
+   </variable>
 </TestCaseEntity>

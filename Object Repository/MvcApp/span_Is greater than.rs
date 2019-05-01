@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//span[(text() = 'Is greater than' or . = 'Is greater than')]</value>
+         <value>/descendant::span[text()=&quot;Is greater than&quot;][1][count(. | //span[(text() = 'Is greater than' or . = 'Is greater than')]) = count(//span[(text() = 'Is greater than' or . = 'Is greater than')])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -41,11 +41,11 @@
       <value>Is greater than</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;911bf8a7-c62a-49f0-9eab-6cf2474b2963_mn_active&quot;)/div[@class=&quot;k-filterable k-content&quot;]/form[@class=&quot;k-filter-menu&quot;]/div[@class=&quot;k-filter-menu-container&quot;]/span[@class=&quot;k-widget k-dropdown&quot;]/span[@class=&quot;k-dropdown-wrap k-state-default k-state-hover k-state-focused&quot;]/span[@class=&quot;k-input&quot;]</value>
+      <value>/descendant::span[text()=&quot;Is greater than&quot;][1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

@@ -39,6 +39,36 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/FilterNumbers</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>dd2994f0-d270-494b-8a2b-8224234cbfbe</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>88da8b4c-c342-437d-ac59-a95bc90d3f33</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a0669be8-ef05-4e8e-89fa-87e2f1673f86</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>425d9fae-1649-480c-8832-18afc0e698fa</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0ee9c976-a4a6-4931-97ff-9cee4d169fbd</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>10021c81-76f5-4c42-b7af-ea8e8eeb627d</guid>
@@ -57,12 +87,72 @@
          <value></value>
          <variableId>c034acaa-f7ea-4425-bff1-a19a2af5ab69</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>086c54db-7d9b-4dcf-a92c-7b3559e533ff</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>db06a51c-266b-417b-bf1d-c6afef3b8e59</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>13d2da3f-ce11-4e47-ade5-7ab6dff7e512</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>caba7e5b-5593-47d4-aae7-14c859f51aeb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/MultiFilters</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>dd2994f0-d270-494b-8a2b-8224234cbfbe</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>88da8b4c-c342-437d-ac59-a95bc90d3f33</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a0669be8-ef05-4e8e-89fa-87e2f1673f86</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>425d9fae-1649-480c-8832-18afc0e698fa</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0ee9c976-a4a6-4931-97ff-9cee4d169fbd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d8e37c75-c8d8-4339-9851-4d250e1dfdbc</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c9a0a878-97c7-4710-aa9d-0f4092070e83</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>f18fcf35-b2f2-4265-acc8-b7620f0515b4</guid>
@@ -75,5 +165,35 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/MenuItems</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3cf1a9c6-2869-4081-800d-ebf3a2805a7e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/GridPagination</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>39c06c8b-5442-4640-b844-33d12884cc02</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ca5e3ad2-1256-4314-996e-6271bff9ded3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3fb3631e-7933-47a6-936d-17b91aa5380d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b964bb47-5d87-44b3-885d-1d2738e9fc92</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

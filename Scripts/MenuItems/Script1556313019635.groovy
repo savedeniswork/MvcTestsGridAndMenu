@@ -13,13 +13,19 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+/*
+ * To test different type of menu items like
+ * inactive, active, with menu items, liked to external link.
+ * Every type of menu item is checked by its specific properties.
+ */
+
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.baseURL)
 
 WebUI.verifyElementVisible(findTestObject('MvcApp/span_Menu - inactive'))
 
-//The verification below is not working, as the element actully is NOT cliable
+'The verification below is not working, as the element actully is NOT cliable'
 WebUI.verifyElementClickable(findTestObject('MvcApp/span_Menu - inactive'),FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementVisible(findTestObject('MvcApp/span_Menu Item 5'))

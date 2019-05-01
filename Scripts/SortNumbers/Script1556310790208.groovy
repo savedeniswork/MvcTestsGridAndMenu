@@ -9,17 +9,25 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+
+/*
+ * To test sorting by number this test case sorts ascending and descending
+ * and saves the value in the first row in the grid.
+ * Hence the smalles and the biggest. Finaly the test compares the values
+ * to check the sorting is working.
+ */
+
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.baseURL)
 
-WebUI.click(findTestObject('MvcApp/a_Column Settings'))
+WebUI.click(findTestObject('MvcApp/a_Column Settings for OrderID'))
 
 WebUI.click(findTestObject('MvcApp/span_Sort Ascending'))
 
 smallestValue = WebUI.getText(findTestObject('MvcApp/td_0'))
 
-WebUI.click(findTestObject('MvcApp/a_Column Settings'))
+WebUI.click(findTestObject('MvcApp/a_Column Settings for OrderID'))
 
 WebUI.click(findTestObject('MvcApp/span_Sort Descending'))
 

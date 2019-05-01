@@ -4,6 +4,12 @@
    <name>span_Filter</name>
    <tag></tag>
    <elementGuidId>41d8eb3e-ac46-4d22-8eaf-67b602f777c1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/descendant::span[text()=&quot;Filter&quot;][1][count(. | //span[(text() = 'Filter' or . = 'Filter')]) = count(//span[(text() = 'Filter' or . = 'Filter')])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -28,11 +34,11 @@
       <value>Filter</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;911bf8a7-c62a-49f0-9eab-6cf2474b2963_mn_active&quot;)/span[@class=&quot;k-link k-state-active k-state-border-right&quot;]</value>
+      <value>/descendant::span[text()=&quot;Filter&quot;][1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

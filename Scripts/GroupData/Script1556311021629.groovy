@@ -13,12 +13,17 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+/*
+ * To group data by values of some of the columns.
+ * First a column is filtered, then the data in it is grouped.
+ * Finaly the test checks a header for grouped data is visible.
+ */
+
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.baseURL)
 
-//Filter Ship Name to contain text
-
+'Filter column to contain text.'
 WebUI.click(findTestObject('MvcApp/a_Column Settings for Ship Name'))
 
 WebUI.mouseOver(findTestObject('MvcApp/span_Filter'))
@@ -35,10 +40,9 @@ WebUI.setText(findTestObject('MvcApp/input_Filter textbox'), '5')
 
 WebUI.click(findTestObject('MvcApp/button_Filter'))
 
-//Drag and drop Ship Name column to group by it
-
+'Drag and drop the column to group by it.'
 WebUI.dragAndDropToObject(findTestObject('Object Repository/MvcApp/a_Ship Name'), findTestObject('Object Repository/MvcApp/div_Area to Group By'))
 
-//Test grouping is done by the group header title
+'Check grouping is done by the group header title.'
 WebUI.verifyElementVisible(findTestObject('MvcApp/p_Grouped Items Header'))
 

@@ -1,22 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>To test filters by text this test case select type of filter e.g. contains, equal. Then enters the value to filster by. Finaly the test checks the values in the rows present in the grid after filtering.</description>
    <name>FilterText</name>
-   <tag></tag>
-   <comment></comment>
+   <tag>KendoUI, Grid, Filter Text</tag>
+   <comment>The rest checks (verifications) for this filter could be done in a similar way</comment>
    <testCaseGuid>8e885ca1-80eb-4abe-ac5b-f1e706dbd136</testCaseGuid>
    <variable>
-      <defaultValue>40</defaultValue>
+      <defaultValue>0</defaultValue>
       <description></description>
       <id>398170d8-6c23-4d44-843b-5e08d9fb9415</id>
       <masked>false</masked>
       <name>testRow</name>
    </variable>
    <variable>
-      <defaultValue>4</defaultValue>
+      <defaultValue>0</defaultValue>
       <description></description>
       <id>c034acaa-f7ea-4425-bff1-a19a2af5ab69</id>
       <masked>false</masked>
       <name>testCol</name>
+   </variable>
+   <variable>
+      <defaultValue>'Ship'</defaultValue>
+      <description></description>
+      <id>086c54db-7d9b-4dcf-a92c-7b3559e533ff</id>
+      <masked>false</masked>
+      <name>textToFilter</name>
+   </variable>
+   <variable>
+      <defaultValue>1</defaultValue>
+      <description></description>
+      <id>13d2da3f-ce11-4e47-ade5-7ab6dff7e512</id>
+      <masked>false</masked>
+      <name>filterRow</name>
+   </variable>
+   <variable>
+      <defaultValue>4</defaultValue>
+      <description></description>
+      <id>db06a51c-266b-417b-bf1d-c6afef3b8e59</id>
+      <masked>false</masked>
+      <name>filterCol</name>
    </variable>
 </TestCaseEntity>
