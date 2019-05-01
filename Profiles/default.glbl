@@ -9,4 +9,9 @@
       <initValue>'http://localhost:61603/'</initValue>
       <name>baseURL</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>The number of records per page as configured in the KendoUI GridController.</description>
+      <initValue>20</initValue>
+      <name>confPagination</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -14,6 +14,11 @@ public class GlobalVariable {
      */
     public static Object baseURL
      
+    /**
+     * <p>Profile default : The number of records per page as configured in the KendoUI GridController.</p>
+     */
+    public static Object confPagination
+     
 
     static {
         try {
@@ -22,6 +27,7 @@ public class GlobalVariable {
             selectedVariables += RunConfiguration.getOverridingParameters()
     
             baseURL = selectedVariables['baseURL']
+            confPagination = selectedVariables['confPagination']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

@@ -1,8 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>To test pagination this test case switch on different pages and counts the rows in each page grid and checks they are less than the page numbers configured. Finally the system checks the pagination label.</description>
    <name>GridPagination</name>
-   <tag></tag>
+   <tag>KendoUI, Grid, Pagination</tag>
    <comment></comment>
    <testCaseGuid>c4d2a975-040b-499c-9ed2-404b7b4453a1</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.confPagination</defaultValue>
+      <description>The number of records per page as configured in the KendoUI GridController.</description>
+      <id>39c06c8b-5442-4640-b844-33d12884cc02</id>
+      <masked>false</masked>
+      <name>configPage</name>
+   </variable>
+   <variable>
+      <defaultValue>[]</defaultValue>
+      <description>Initialize the counter for number of rows in a page in the grid (gridRows).</description>
+      <id>ca5e3ad2-1256-4314-996e-6271bff9ded3</id>
+      <masked>false</masked>
+      <name>gridRows</name>
+   </variable>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description>Initialize the value for total number of rows in a page in the grid (totalGridRows)</description>
+      <id>3fb3631e-7933-47a6-936d-17b91aa5380d</id>
+      <masked>false</masked>
+      <name>totalGridRows</name>
+   </variable>
 </TestCaseEntity>

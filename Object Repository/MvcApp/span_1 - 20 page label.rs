@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//span[(starts-with(text(), '1 - 20 of ') or starts-with(., '1 - 20 of '))]</value>
+         <value>//span[(starts-with(text(), '1 - 20 of') or starts-with(., '1 - 20 of'))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -31,14 +31,7 @@
       <matchCondition>starts with</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>1 - 20 of </value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>//div[@class=&quot;k-pager-wrap k-grid-pager k-widget k-floatwrap&quot;]/span[@class=&quot;k-pager-info k-label&quot;]</value>
+      <value>1 - 20 of</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

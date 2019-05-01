@@ -12,8 +12,8 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import com.kms.katalon.core.webui.driver.DriverFactory
-import org.openqa.selenium.By
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import org.openqa.selenium.By as By
 
 /*
  * To test pagination this test case switch on different pages
@@ -21,45 +21,63 @@ import org.openqa.selenium.By
  * than the page numbers configured. Finally the system checks 
  * the pagination label.
  */
-
+'Open browser.'
 WebUI.openBrowser('')
 
+'Load URL.'
 WebUI.navigateToUrl(GlobalVariable.baseURL)
 
+'Click the button arrow to go to the last page in the grid.'
 WebUI.click(findTestObject('MvcApp/span_k-icon k-i-arrow-end-right'))
 
-gridRows = DriverFactory.getWebDriver().findElements(By.xpath("//tbody[@role='rowgroup']/tr"))
+'Find all elements that are rows in the grid and asign the array of elements to gridRows variable.'
+gridRows = DriverFactory.getWebDriver().findElements(By.xpath('//tbody[@role=\'rowgroup\']/tr'))
 
-totalGridRows=gridRows.size()
+'Count the size of the gridRows array, to calculate the total number of rows in the grid.'
+totalGridRows = gridRows.size()
 
-assert (totalGridRows<=20)
- 
+'Check that the total rows shown in the grid are less that the configured (e.g. 20).'
+assert totalGridRows <= configPage
+
+'Click the button arrow to go to the first page in the grid.'
 WebUI.click(findTestObject('MvcApp/span_k-icon k-i-arrow-end-left'))
 
-gridRows = DriverFactory.getWebDriver().findElements(By.xpath("//tbody[@role='rowgroup']/tr"))
+'Check the paginationn is 20 items per page, hence the label is from 1 to 20'
+WebUI.verifyElementPresent(findTestObject('MvcApp/span_1 - 20 page label'), 5)
 
-totalGridRows=gridRows.size()
+'Find all elements that are rows in the grid and asign the array of elements to gridRows variable.'
+gridRows = DriverFactory.getWebDriver().findElements(By.xpath('//tbody[@role=\'rowgroup\']/tr'))
 
-assert (totalGridRows<=20)
+'Count the size of the gridRows array, to calculate the total number of rows in the grid.'
+totalGridRows = gridRows.size()
 
+'Check that the total rows shown in the grid are less that the configured (e.g. 20).'
+assert totalGridRows <= configPage
+
+'Click the button arrow to go to the next page in the grid.'
 WebUI.click(findTestObject('MvcApp/span_k-icon k-i-arrow-right'))
 
-gridRows = DriverFactory.getWebDriver().findElements(By.xpath("//tbody[@role='rowgroup']/tr"))
+'Find all elements that are rows in the grid and asign the array of elements to gridRows variable.'
+gridRows = DriverFactory.getWebDriver().findElements(By.xpath('//tbody[@role=\'rowgroup\']/tr'))
 
-totalGridRows=gridRows.size()
+'Count the size of the gridRows array, to calculate the total number of rows in the grid.'
+totalGridRows = gridRows.size()
 
-assert (totalGridRows<=20)
+'Check that the total rows shown in the grid are less that the configured (e.g. 20).'
+assert totalGridRows <= configPage
 
+'Click the button arrow to go to the previous page in the grid.'
 WebUI.click(findTestObject('MvcApp/a_k-link k-pager-nav'))
 
-gridRows = DriverFactory.getWebDriver().findElements(By.xpath("//tbody[@role='rowgroup']/tr"))
+'Find all elements that are rows in the grid and asign the array of elements to gridRows variable.'
+gridRows = DriverFactory.getWebDriver().findElements(By.xpath('//tbody[@role=\'rowgroup\']/tr'))
 
-totalGridRows=gridRows.size()
+'Count the size of the gridRows array, to calculate the total number of rows in the grid.'
+totalGridRows = gridRows.size()
 
-assert (totalGridRows<=20)
+'Check that the total rows shown in the grid are less that the configured (e.g. 20).'
+assert totalGridRows <= configPage
 
-//Check the pagination label is from 1 to 20
-WebUI.verifyElementPresent(findTestObject('MvcApp/span_1 - 20 page label'),5)
-
+'Close browser'
 WebUI.closeBrowser()
 
